@@ -1,0 +1,110 @@
+﻿<UserControl x:Class="DDCInteligence.View.UserControl.LookupContent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DDCInteligence.View.UserControl"
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             FocusManager.FocusedElement="{Binding ElementName=TextBoxSearch}">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10 0">
+            <!-- Title and subtitle are bound to dependency properties -->
+            <TextBlock Text="{Binding Title, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                       FontSize="30" 
+                       Foreground="{DynamicResource PrimaryTextBrush}"/>
+            <TextBlock Text="{Binding Subtitle, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                       Foreground="{DynamicResource SecondaryTextBrush}" />
+
+            <!-- SearchBar with dynamic placeholder and search text binding -->
+            <hc:SearchBar x:Name="TextBoxSearch" Margin="0 10"
+                          hc:InfoElement.ShowClearButton="True"
+                          Style="{StaticResource SearchBarPlus}"
+                          hc:InfoElement.Placeholder="{Binding SearchPlaceholder, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                          FontWeight="Bold"
+                          CharacterCasing="Upper"
+                          IsRealTime="True"
+                          Text="{Binding SearchText, RelativeSource={RelativeSource AncestorType=UserControl}, UpdateSourceTrigger=PropertyChanged}" />
+
+            <Grid>
+                <!-- DataGrid bound to an ItemsSource dependency property -->
+                <DataGrid x:Name="dgvLookup" Style="{DynamicResource DataGrid.Small}"
+                          FontWeight="Bold"
+                          AutoGenerateColumns="False"
+                          RowHeight="50"
+                          BorderThickness="0"
+                          SelectionMode="Single"
+                          Height="300"
+                          Background="{DynamicResource RegionBrush}"
+                          ItemsSource="{Binding ItemsSource, RelativeSource={RelativeSource AncestorType=UserControl}, UpdateSourceTrigger=PropertyChanged}"
+                          IsReadOnly="True"
+                          TabIndex="-1"
+                          ScrollViewer.CanContentScroll="True"
+                          ScrollViewer.VerticalScrollBarVisibility="Auto"
+                          hc:DataGridAttach.CanUnselectAllWithBlankArea="True"
+                          Margin="2">
+                    <DataGrid.Columns>
+                        <!-- Code column -->
+                        <DataGridTemplateColumn Width="100" Header="Code">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel>
+                                        <hc:HighlightTextBlock FontSize="14" 
+                                                                 FontWeight="Bold" 
+                                                                 SourceText="{Binding CODE}"
+                                                                 QueriesText="{Binding ElementName=TextBoxSearch, Path=Text}" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <!-- Description column -->
+                        <DataGridTemplateColumn Width="*" Header="Description">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel>
+                                        <TextBlock Text="{Binding COMP_RESP, TargetNullValue=None, FallbackValue=None}" />
+                                        <TextBlock Text="{Binding ReferenceText, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                                   Foreground="{DynamicResource SecondaryTextBrush}" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <!-- Action column -->
+                        <DataGridTemplateColumn Width="Auto" CanUserReorder="False"
+                                                CanUserSort="False" CanUserResize="False">
+                            <DataGridTemplateColumn.Header>
+                                <TextBlock Text="Action" />
+                            </DataGridTemplateColumn.Header>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Style="{DynamicResource ButtonDefault.Small}"
+                                            BorderBrush="Transparent"
+                                            Background="Transparent"
+                                            Padding="0"
+                                            Width="23"
+                                            FontWeight="Bold"
+                                            ToolTip="Remove item"
+                                            Command="{Binding SelectedItemCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                            CommandParameter="{Binding}">
+                                        <Button.Content>
+                                            <Image Source="/Resources/Images/HotKeyIcons/mouse-pointer-click.png" />
+                                        </Button.Content>
+                                    </Button>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <!-- Fallback text if no data exists -->
+                <TextBlock Margin="0 10 0 0" VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           FontWeight="SemiBold" 
+                           Visibility="{Binding ElementName=dgvLookup, Path=Items.Count, Converter={StaticResource Integer2VisibilityConverter}}">
+                    <Run Foreground="{DynamicResource PrimaryBrush}" FontFamily="{StaticResource FontAwesome}" Text="&#xf1c0;" />
+                    <Run BaselineAlignment="Center" Text="No data found" Foreground="{DynamicResource SecondaryTextBrush}" />
+                </TextBlock>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>

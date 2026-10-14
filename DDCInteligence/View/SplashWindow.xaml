@@ -1,0 +1,98 @@
+﻿<Window x:Class="DDCInteligence.View.SplashWindow"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+           Title="SplashScreen"
+           WindowStyle="None"
+           ResizeMode="NoResize"
+           Background="#1e1e1e"
+           WindowStartupLocation="CenterScreen"
+           Width="650" Height="300"
+           AllowsTransparency="True"
+           ShowInTaskbar="False"
+           Topmost="False">
+
+    <!-- Outer Gradient Background -->
+    <Border Padding="0" SnapsToDevicePixels="True">
+
+        <!-- Main Content Grid -->
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2.5*" />
+                <ColumnDefinition Width="3.5*" />
+            </Grid.ColumnDefinitions>
+            <!-- Left Panel -->
+            <Grid Grid.Column="0" Margin="20 20 0 20" VerticalAlignment="Stretch">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- App Title (Top) -->
+                <StackPanel  Orientation="Vertical"  Grid.Row="0" VerticalAlignment="Top">
+                    <TextBlock FontWeight="Bold" Foreground="#E5E7EB" FontSize="28" Text="Apex" >
+                        <TextBlock.Effect>
+                            <DropShadowEffect Color="#E5E7EB" BlurRadius="10" ShadowDepth="0" Opacity="1" />
+                        </TextBlock.Effect>
+                    </TextBlock>
+                    <TextBlock Text="Data Entry"
+                               FontSize="25"
+                               FontWeight="Bold"
+                               Foreground="#E5E7EB">
+                        <TextBlock.Effect>
+                            <DropShadowEffect Color="#E5E7EB" BlurRadius="10" ShadowDepth="0" Opacity="1" />
+                        </TextBlock.Effect>
+                    </TextBlock>
+                </StackPanel>
+
+                <!-- Spacer Row (Empty) -->
+                <StackPanel Grid.Row="1" />
+
+                <!-- Subtitle, Version, Status (Bottom) -->
+                <StackPanel Grid.Row="2" VerticalAlignment="Bottom">
+                    <TextBlock Text="Advanced Platform for Enhanced Xtraction"
+                               FontSize="12"
+                               Foreground="#FFFFFF"
+                               Opacity="0.7"
+                               TextWrapping="Wrap"
+                               Margin="0,0,0,10" />
+
+                    <TextBlock x:Name="lblVersion" Text="Version 1.0"
+                               FontSize="12"
+                               Foreground="#FFFFFF"
+                               Opacity="0.7" />
+
+                    <!-- Spacer -->
+                    <Rectangle Height="20" Fill="Transparent" />
+
+                    <!-- Status Text -->
+                    <TextBlock x:Name="StatusTextBlock" Text="Initializing..."
+                               FontSize="12"
+                               Foreground="#FFFFFF"
+                               Opacity="0.7" />
+                </StackPanel>
+            </Grid>
+
+            <!-- Right Panel (Artwork) -->
+            <Border Grid.Column="1" Background="#e5e5e5 ">
+                <Image Source="/Resources/Images/apex.png"/>
+            </Border>
+
+            <!-- Bottom Row with ProgressBar and Footer -->
+            <Grid VerticalAlignment="Bottom" Margin="20" Grid.ColumnSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Footer -->
+                <TextBlock Grid.Row="1"
+                           Text="Copyright © 2025 DDC FPO. All rights reserved."
+                           FontSize="11"
+                           FontWeight="SemiBold"
+                           Foreground="#19233d"
+                           HorizontalAlignment="Left" Margin="305,0,0,0" Width="305"/>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

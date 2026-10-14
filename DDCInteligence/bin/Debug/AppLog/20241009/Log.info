@@ -1,0 +1,588 @@
+Time             : 12:39:53
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:39:53
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:41:20
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:41:20
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:47:12
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:47:12
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:47:42
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:47:42
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:54:59
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:54:59
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:55:54
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:55:54
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:56:40
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:56:40
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:58:57
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:58:57
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:59:31
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:59:31
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 13:01:15
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 13:01:15
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:12:06
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:12:06
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:13:14
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:13:14
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:16:36
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:16:37
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:19:05
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:19:05
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:20:01
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:20:01
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:20:20
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:20:20
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:20:41
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:20:41
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:22:21
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:22:21
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:23:31
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:23:31
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:28:13
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:28:13
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:29:24
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:29:24
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\RL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+

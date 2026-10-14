@@ -1,0 +1,426 @@
+﻿<UserControl
+    x:Class="DDCInteligence.View.UserControl._3rdPartyContent"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:behavior="clr-namespace:DDCInteligence.Utilities.Behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:hc="https://handyorg.github.io/handycontrol"
+    xmlns:loc="clr-namespace:DDCInteligence.Utilities.Services"
+    xmlns:local="clr-namespace:DDCInteligence.View.UserControl"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="BillTo"
+    DataContext="{Binding Source={StaticResource Locator}, Path=BillTo}"
+    mc:Ignorable="d">
+    <Border SnapsToDevicePixels="True" UseLayoutRounding="True">
+        <Expander IsExpanded="True">
+            <Expander.Header>
+                <TextBlock
+                    FontWeight="Bold"
+                    Foreground="#268b9c"
+                    Text="Bill To" />
+            </Expander.Header>
+
+            <Border
+                Background="{DynamicResource RegionBrush}"
+                BorderBrush="{DynamicResource BorderBrush}"
+                BorderThickness="1,0,1,1"
+                CornerRadius="0 0 5 5">
+                <hc:UniformSpacingPanel
+                    Margin="5"
+                    Orientation="Vertical"
+                    Spacing="5">
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.3*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="0" Orientation="Vertical">
+                            <TextBox
+                                x:Name="Code"
+                                hc:InfoElement.Necessary="False"
+                                hc:InfoElement.Placeholder=""
+                                hc:InfoElement.Title=""
+                                hc:InfoElement.TitlePlacement="Left"
+                                hc:InfoElement.TitleWidth="Auto"
+                                FontWeight="Bold"
+                                Style="{StaticResource CustomTextBoxExtend}"
+                                Text="{Binding Code, UpdateSourceTrigger=PropertyChanged}"
+                                Validation.ErrorTemplate="{x:Null}">
+                                <hc:Interaction.Behaviors>
+                                    <behavior:FocusBehavior />
+                                    <behavior:PreviewKeydownBehevior />
+                                </hc:Interaction.Behaviors>
+                            </TextBox>
+                            <ItemsControl Focusable="False" ItemsSource="{Binding ElementName=Code, Path=(Validation.Errors)}">
+                                <ItemsControl.Style>
+                                    <Style TargetType="ItemsControl">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsKeyboardFocusWithin, ElementName=Code}" Value="True">
+                                                <Setter Property="Visibility" Value="Visible" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </ItemsControl.Style>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock
+                                            Foreground="#DC2626"
+                                            Text="{Binding ErrorContent}"
+                                            TextWrapping="Wrap" />
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+
+                        <StackPanel
+                            Grid.Column="1"
+                            Margin="5,0,0,0"
+                            Orientation="Vertical">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <TextBox
+                                    x:Name="Name"
+                                    hc:InfoElement.Necessary="True"
+                                    hc:InfoElement.Placeholder=""
+                                    hc:InfoElement.Title="Name"
+                                    hc:InfoElement.TitlePlacement="Left"
+                                    hc:InfoElement.TitleWidth="Auto"
+                                    loc:TextBoxAttachServices.TextBoxController="{Binding}"
+                                    FontWeight="Bold"
+                                    Style="{StaticResource CustomTextBoxExtend}"
+                                    Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"
+                                    Validation.ErrorTemplate="{x:Null}">
+                                    <hc:Interaction.Behaviors>
+                                        <behavior:FocusBehavior />
+                                        <behavior:PreviewKeydownBehevior />
+                                    </hc:Interaction.Behaviors>
+                                </TextBox>
+                                <Button
+                                    x:Name="btnAccountName"
+                                    Grid.Column="1"
+                                    Margin="5,0,0,0"
+                                    Style="{StaticResource CustomButtonStyle}">
+                                    <hc:Interaction.Behaviors>
+                                        <behavior:ButtonClickBehavior />
+                                    </hc:Interaction.Behaviors>
+                                </Button>
+                            </Grid>
+                            <ItemsControl Focusable="False" ItemsSource="{Binding ElementName=Name, Path=(Validation.Errors)}">
+                                <ItemsControl.Style>
+                                    <Style TargetType="ItemsControl">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsKeyboardFocusWithin, ElementName=Name}" Value="True">
+                                                <Setter Property="Visibility" Value="Visible" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </ItemsControl.Style>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock
+                                            Foreground="#DC2626"
+                                            Text="{Binding ErrorContent}"
+                                            TextWrapping="Wrap" />
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </Grid>
+
+                    <StackPanel Orientation="Vertical">
+                        <hc:TextBox
+                            x:Name="AddressLine1"
+                            Height="12"
+                            hc:InfoElement.Necessary="True"
+                            hc:InfoElement.Placeholder=""
+                            hc:InfoElement.Title="Address 1"
+                            hc:InfoElement.TitlePlacement="Left"
+                            hc:InfoElement.TitleWidth="Auto"
+                            FontWeight="Bold"
+                            Style="{DynamicResource CustomTextBoxExtend}"
+                            Text="{Binding Address, UpdateSourceTrigger=PropertyChanged}">
+                            <hc:Interaction.Behaviors>
+                                <behavior:FocusBehavior />
+                                <behavior:PreviewKeydownBehevior />
+                            </hc:Interaction.Behaviors>
+                        </hc:TextBox>
+                        <ItemsControl Focusable="False" ItemsSource="{Binding ElementName=AddressLine1, Path=(Validation.Errors)}">
+                            <ItemsControl.Style>
+                                <Style TargetType="ItemsControl">
+                                    <Setter Property="Visibility" Value="Collapsed" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsKeyboardFocusWithin, ElementName=AddressLine1}" Value="True">
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.Style>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock
+                                        Foreground="#DC2626"
+                                        Text="{Binding ErrorContent}"
+                                        TextWrapping="Wrap" />
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical">
+                        <hc:TextBox
+                            x:Name="AddressLine2"
+                            hc:InfoElement.Necessary="True"
+                            hc:InfoElement.Placeholder=""
+                            hc:InfoElement.Title=""
+                            hc:InfoElement.TitlePlacement="Left"
+                            hc:InfoElement.TitleWidth="Auto"
+                            FontWeight="Bold"
+                            Style="{StaticResource CustomTextBoxExtend}"
+                            Text="{Binding Address2, UpdateSourceTrigger=PropertyChanged}">
+                            <hc:Interaction.Behaviors>
+                                <behavior:FocusBehavior />
+                                <behavior:PreviewKeydownBehevior />
+                            </hc:Interaction.Behaviors>
+                        </hc:TextBox>
+                        <ItemsControl Focusable="False" ItemsSource="{Binding ElementName=AddressLine2, Path=(Validation.Errors)}">
+                            <ItemsControl.Style>
+                                <Style TargetType="ItemsControl">
+                                    <Setter Property="Visibility" Value="Collapsed" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsKeyboardFocusWithin, ElementName=AddressLine2}" Value="True">
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.Style>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock
+                                        Foreground="#DC2626"
+                                        Text="{Binding ErrorContent}"
+                                        TextWrapping="Wrap" />
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </StackPanel>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="0.5*" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Orientation="Vertical">
+                            <TextBox
+                                x:Name="City"
+                                Grid.Column="0"
+                                hc:InfoElement.Necessary="True"
+                                hc:InfoElement.Placeholder=""
+                                hc:InfoElement.Title="City"
+                                hc:InfoElement.TitlePlacement="Left"
+                                hc:InfoElement.TitleWidth="Auto"
+                                FontWeight="Bold"
+                                Style="{StaticResource CustomTextBoxExtend}"
+                                Text="{Binding City, UpdateSourceTrigger=PropertyChanged}"
+                                Validation.ErrorTemplate="{x:Null}">
+                                <hc:Interaction.Behaviors>
+                                    <behavior:PreviewKeydownBehevior />
+                                    <behavior:FocusBehavior />
+                                </hc:Interaction.Behaviors>
+                            </TextBox>
+                            <ItemsControl Focusable="False" ItemsSource="{Binding ElementName=City, Path=(Validation.Errors)}">
+                                <ItemsControl.Style>
+                                    <Style TargetType="ItemsControl">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsKeyboardFocusWithin, ElementName=City}" Value="True">
+                                                <Setter Property="Visibility" Value="Visible" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </ItemsControl.Style>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock
+                                            Foreground="#DC2626"
+                                            Text="{Binding ErrorContent}"
+                                            TextWrapping="Wrap" />
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                        <StackPanel
+                            Grid.Column="1"
+                            Margin="5,0,0,0"
+                            Orientation="Vertical">
+                            <TextBox
+                                x:Name="State"
+                                Margin="5,0,0,0"
+                                hc:InfoElement.Necessary="True"
+                                hc:InfoElement.Placeholder=""
+                                hc:InfoElement.Title="State"
+                                hc:InfoElement.TitlePlacement="Left"
+                                hc:InfoElement.TitleWidth="Auto"
+                                FontWeight="Bold"
+                                Style="{StaticResource CustomTextBoxExtend}"
+                                Text="{Binding State, UpdateSourceTrigger=PropertyChanged}"
+                                Validation.ErrorTemplate="{x:Null}">
+                                <hc:Interaction.Behaviors>
+                                    <behavior:PreviewKeydownBehevior />
+                                    <behavior:FocusBehavior />
+                                </hc:Interaction.Behaviors>
+                            </TextBox>
+                            <ItemsControl Focusable="False" ItemsSource="{Binding ElementName=State, Path=(Validation.Errors)}">
+                                <ItemsControl.Style>
+                                    <Style TargetType="ItemsControl">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsKeyboardFocusWithin, ElementName=State}" Value="True">
+                                                <Setter Property="Visibility" Value="Visible" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </ItemsControl.Style>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock
+                                            FontWeight="Bold"
+                                            Foreground="#DC2626"
+                                            Text="{Binding ErrorContent}" />
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.7*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Margin="0,0,5,0" Orientation="Vertical">
+                            <TextBox
+                                x:Name="Zip"
+                                hc:InfoElement.Necessary="True"
+                                hc:InfoElement.Placeholder=""
+                                hc:InfoElement.Title="Zip"
+                                hc:InfoElement.TitlePlacement="Left"
+                                hc:InfoElement.TitleWidth="Auto"
+                                FontWeight="Bold"
+                                Style="{StaticResource CustomTextBoxExtend}"
+                                Text="{Binding Zip, UpdateSourceTrigger=PropertyChanged}"
+                                Validation.ErrorTemplate="{x:Null}">
+                                <hc:Interaction.Behaviors>
+                                    <behavior:PreviewKeydownBehevior />
+                                    <behavior:FocusBehavior />
+                                </hc:Interaction.Behaviors>
+                            </TextBox>
+                            <ItemsControl Focusable="False" ItemsSource="{Binding ElementName=Zip, Path=(Validation.Errors)}">
+                                <ItemsControl.Style>
+                                    <Style TargetType="ItemsControl">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsKeyboardFocusWithin, ElementName=Zip}" Value="True">
+                                                <Setter Property="Visibility" Value="Visible" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </ItemsControl.Style>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock
+                                            Foreground="#DC2626"
+                                            Text="{Binding ErrorContent}"
+                                            TextWrapping="Wrap" />
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Orientation="Vertical">
+                            <TextBox
+                                x:Name="Phone"
+                                hc:InfoElement.Necessary="False"
+                                hc:InfoElement.Placeholder=""
+                                hc:InfoElement.Title="Phone"
+                                hc:InfoElement.TitlePlacement="Left"
+                                hc:InfoElement.TitleWidth="Auto"
+                                FontWeight="Bold"
+                                Style="{StaticResource CustomTextBoxExtend}"
+                                Text="{Binding Phone, UpdateSourceTrigger=PropertyChanged}"
+                                Validation.ErrorTemplate="{x:Null}">
+                                <hc:Interaction.Behaviors>
+                                    <behavior:PreviewKeydownBehevior />
+                                    <behavior:FocusBehavior />
+                                </hc:Interaction.Behaviors>
+                            </TextBox>
+                            <ItemsControl Focusable="False" ItemsSource="{Binding ElementName=Phone, Path=(Validation.Errors)}">
+                                <ItemsControl.Style>
+                                    <Style TargetType="ItemsControl">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsKeyboardFocusWithin, ElementName=Phone}" Value="True">
+                                                <Setter Property="Visibility" Value="Visible" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </ItemsControl.Style>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock
+                                            Foreground="#DC2626"
+                                            Text="{Binding ErrorContent}"
+                                            TextWrapping="Wrap" />
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </Grid>
+                    <StackPanel Grid.Column="1" Orientation="Vertical">
+                        <TextBox
+                            x:Name="Contact"
+                            hc:InfoElement.Necessary="False"
+                            hc:InfoElement.Placeholder=""
+                            hc:InfoElement.Title="Contact"
+                            hc:InfoElement.TitlePlacement="Left"
+                            hc:InfoElement.TitleWidth="Auto"
+                            FontWeight="Bold"
+                            Style="{StaticResource CustomTextBoxExtend}"
+                            Text="{Binding Contact, UpdateSourceTrigger=PropertyChanged}"
+                            Validation.ErrorTemplate="{x:Null}">
+                            <hc:Interaction.Behaviors>
+                                <behavior:PreviewKeydownBehevior />
+                                <behavior:FocusBehavior />
+                            </hc:Interaction.Behaviors>
+                        </TextBox>
+                        <ItemsControl Focusable="False" ItemsSource="{Binding ElementName=Contact, Path=(Validation.Errors)}">
+                            <ItemsControl.Style>
+                                <Style TargetType="ItemsControl">
+                                    <Setter Property="Visibility" Value="Collapsed" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsKeyboardFocusWithin, ElementName=Contact}" Value="True">
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ItemsControl.Style>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock
+                                        Foreground="#DC2626"
+                                        Text="{Binding ErrorContent}"
+                                        TextWrapping="Wrap" />
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </StackPanel>
+                </hc:UniformSpacingPanel>
+            </Border>
+        </Expander>
+    </Border>
+</UserControl>

@@ -1,0 +1,467 @@
+Time             : 14:07:14
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:07:51
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:07:56
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:07:57
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:07:58
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:07:59
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:08:00
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:08:01
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:08:03
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:08:25
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:08:26
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:08:27
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:08:28
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:08:40
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:08:41
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:08:42
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 60
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:21:27
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 61
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:21:28
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 61
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:21:29
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 61
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:21:30
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 61
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:21:31
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 61
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:21:32
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 61
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:21:34
+Error            : Method not found: 'System.DateTime DotNetCS.Util.ToDateTime(System.String, System.DateTime)'.
+StackTrace       : at DotNetCS.OCR.Open(String path)
+   at DDCInteligence.View.UserControl.ImageViewerContent.DataContext_OCRPathChanged(Object sender, PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\View\UserControl\ImageViewerContent.xaml.cs:line 61
+   at DDCInteligence.Models.ImageViewerModel.OnOcrPathChanged(PathChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 108
+   at DDCInteligence.Models.ImageViewerModel.Process_PropertyChanged(Object sender, PropertyChangedEventArgs e) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\ImageViewerModel.cs:line 93
+   at System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   at DDCInteligence.ViewModel.ProcessViewModel.RaisePropertyChanged(String propertyName) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 593
+   at DDCInteligence.ViewModel.ProcessViewModel.set_OCRPath(String value) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 151
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__72.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 266
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:42:09
+Error            : Could not load file or assembly 'DDCIntelligence, Culture=neutral' or one of its dependencies. The system cannot find the file specified.
+StackTrace       : at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at System.Windows.Navigation.BaseUriHelper.GetLoadedAssembly(String assemblyName, String assemblyVersion, String assemblyKey)
+   at MS.Internal.AppModel.ResourceContainer.GetResourceManagerWrapper(Uri uri, String& partName, Boolean& isContentFile)
+   at MS.Internal.AppModel.ResourceContainer.GetPartCore(Uri uri)
+   at System.IO.Packaging.Package.GetPartHelper(Uri partUri)
+   at System.IO.Packaging.Package.GetPart(Uri partUri)
+   at System.IO.Packaging.PackWebResponse.CachedResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.get_ContentType()
+   at MS.Internal.WpfWebRequestHelper.GetContentType(WebResponse response)
+   at MS.Internal.WpfWebRequestHelper.GetResponseStream(WebRequest request, ContentType& contentType)
+   at System.Windows.ResourceDictionary.set_Source(Uri value)
+   at DDCInteligence.App.UpdateTheme(SkinType skin) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\App.xaml.cs:line 47
+Error Occurred In : UpdateTheme
+
+
+Time             : 17:42:13
+Error            : Could not load file or assembly 'DDCIntelligence, Culture=neutral' or one of its dependencies. The system cannot find the file specified.
+StackTrace       : at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at System.Windows.Navigation.BaseUriHelper.GetLoadedAssembly(String assemblyName, String assemblyVersion, String assemblyKey)
+   at MS.Internal.AppModel.ResourceContainer.GetResourceManagerWrapper(Uri uri, String& partName, Boolean& isContentFile)
+   at MS.Internal.AppModel.ResourceContainer.GetPartCore(Uri uri)
+   at System.IO.Packaging.Package.GetPartHelper(Uri partUri)
+   at System.IO.Packaging.Package.GetPart(Uri partUri)
+   at System.IO.Packaging.PackWebResponse.CachedResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.get_ContentType()
+   at MS.Internal.WpfWebRequestHelper.GetContentType(WebResponse response)
+   at MS.Internal.WpfWebRequestHelper.GetResponseStream(WebRequest request, ContentType& contentType)
+   at System.Windows.ResourceDictionary.set_Source(Uri value)
+   at DDCInteligence.App.UpdateTheme(SkinType skin) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\App.xaml.cs:line 47
+Error Occurred In : UpdateTheme
+
+
+Time             : 17:42:24
+Error            : Could not load file or assembly 'DDCIntelligence, Culture=neutral' or one of its dependencies. The system cannot find the file specified.
+StackTrace       : at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at System.Windows.Navigation.BaseUriHelper.GetLoadedAssembly(String assemblyName, String assemblyVersion, String assemblyKey)
+   at MS.Internal.AppModel.ResourceContainer.GetResourceManagerWrapper(Uri uri, String& partName, Boolean& isContentFile)
+   at MS.Internal.AppModel.ResourceContainer.GetPartCore(Uri uri)
+   at System.IO.Packaging.Package.GetPartHelper(Uri partUri)
+   at System.IO.Packaging.Package.GetPart(Uri partUri)
+   at System.IO.Packaging.PackWebResponse.CachedResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.get_ContentType()
+   at MS.Internal.WpfWebRequestHelper.GetContentType(WebResponse response)
+   at MS.Internal.WpfWebRequestHelper.GetResponseStream(WebRequest request, ContentType& contentType)
+   at System.Windows.ResourceDictionary.set_Source(Uri value)
+   at DDCInteligence.App.UpdateTheme(SkinType skin) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\App.xaml.cs:line 47
+Error Occurred In : UpdateTheme
+
+
+Time             : 17:42:26
+Error            : Could not load file or assembly 'DDCIntelligence, Culture=neutral' or one of its dependencies. The system cannot find the file specified.
+StackTrace       : at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at System.Windows.Navigation.BaseUriHelper.GetLoadedAssembly(String assemblyName, String assemblyVersion, String assemblyKey)
+   at MS.Internal.AppModel.ResourceContainer.GetResourceManagerWrapper(Uri uri, String& partName, Boolean& isContentFile)
+   at MS.Internal.AppModel.ResourceContainer.GetPartCore(Uri uri)
+   at System.IO.Packaging.Package.GetPartHelper(Uri partUri)
+   at System.IO.Packaging.Package.GetPart(Uri partUri)
+   at System.IO.Packaging.PackWebResponse.CachedResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.get_ContentType()
+   at MS.Internal.WpfWebRequestHelper.GetContentType(WebResponse response)
+   at MS.Internal.WpfWebRequestHelper.GetResponseStream(WebRequest request, ContentType& contentType)
+   at System.Windows.ResourceDictionary.set_Source(Uri value)
+   at DDCInteligence.App.UpdateTheme(SkinType skin) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\App.xaml.cs:line 47
+Error Occurred In : UpdateTheme
+
+
+Time             : 17:42:29
+Error            : Could not load file or assembly 'DDCIntelligence, Culture=neutral' or one of its dependencies. The system cannot find the file specified.
+StackTrace       : at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at System.Windows.Navigation.BaseUriHelper.GetLoadedAssembly(String assemblyName, String assemblyVersion, String assemblyKey)
+   at MS.Internal.AppModel.ResourceContainer.GetResourceManagerWrapper(Uri uri, String& partName, Boolean& isContentFile)
+   at MS.Internal.AppModel.ResourceContainer.GetPartCore(Uri uri)
+   at System.IO.Packaging.Package.GetPartHelper(Uri partUri)
+   at System.IO.Packaging.Package.GetPart(Uri partUri)
+   at System.IO.Packaging.PackWebResponse.CachedResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.get_ContentType()
+   at MS.Internal.WpfWebRequestHelper.GetContentType(WebResponse response)
+   at MS.Internal.WpfWebRequestHelper.GetResponseStream(WebRequest request, ContentType& contentType)
+   at System.Windows.ResourceDictionary.set_Source(Uri value)
+   at DDCInteligence.App.UpdateTheme(SkinType skin) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\App.xaml.cs:line 47
+Error Occurred In : UpdateTheme
+
+
+Time             : 17:42:55
+Error            : Could not load file or assembly 'DDCIntelligence, Culture=neutral' or one of its dependencies. The system cannot find the file specified.
+StackTrace       : at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at System.Windows.Navigation.BaseUriHelper.GetLoadedAssembly(String assemblyName, String assemblyVersion, String assemblyKey)
+   at MS.Internal.AppModel.ResourceContainer.GetResourceManagerWrapper(Uri uri, String& partName, Boolean& isContentFile)
+   at MS.Internal.AppModel.ResourceContainer.GetPartCore(Uri uri)
+   at System.IO.Packaging.Package.GetPartHelper(Uri partUri)
+   at System.IO.Packaging.Package.GetPart(Uri partUri)
+   at System.IO.Packaging.PackWebResponse.CachedResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.get_ContentType()
+   at MS.Internal.WpfWebRequestHelper.GetContentType(WebResponse response)
+   at MS.Internal.WpfWebRequestHelper.GetResponseStream(WebRequest request, ContentType& contentType)
+   at System.Windows.ResourceDictionary.set_Source(Uri value)
+   at DDCInteligence.App.UpdateTheme(SkinType skin) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\App.xaml.cs:line 47
+Error Occurred In : UpdateTheme
+
+
+Time             : 17:42:58
+Error            : Could not load file or assembly 'DDCIntelligence, Culture=neutral' or one of its dependencies. The system cannot find the file specified.
+StackTrace       : at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at System.Windows.Navigation.BaseUriHelper.GetLoadedAssembly(String assemblyName, String assemblyVersion, String assemblyKey)
+   at MS.Internal.AppModel.ResourceContainer.GetResourceManagerWrapper(Uri uri, String& partName, Boolean& isContentFile)
+   at MS.Internal.AppModel.ResourceContainer.GetPartCore(Uri uri)
+   at System.IO.Packaging.Package.GetPartHelper(Uri partUri)
+   at System.IO.Packaging.Package.GetPart(Uri partUri)
+   at System.IO.Packaging.PackWebResponse.CachedResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.get_ContentType()
+   at MS.Internal.WpfWebRequestHelper.GetContentType(WebResponse response)
+   at MS.Internal.WpfWebRequestHelper.GetResponseStream(WebRequest request, ContentType& contentType)
+   at System.Windows.ResourceDictionary.set_Source(Uri value)
+   at DDCInteligence.App.UpdateTheme(SkinType skin) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\App.xaml.cs:line 47
+Error Occurred In : UpdateTheme
+
+
+Time             : 17:43:00
+Error            : Could not load file or assembly 'DDCIntelligence, Culture=neutral' or one of its dependencies. The system cannot find the file specified.
+StackTrace       : at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at System.Windows.Navigation.BaseUriHelper.GetLoadedAssembly(String assemblyName, String assemblyVersion, String assemblyKey)
+   at MS.Internal.AppModel.ResourceContainer.GetResourceManagerWrapper(Uri uri, String& partName, Boolean& isContentFile)
+   at MS.Internal.AppModel.ResourceContainer.GetPartCore(Uri uri)
+   at System.IO.Packaging.Package.GetPartHelper(Uri partUri)
+   at System.IO.Packaging.Package.GetPart(Uri partUri)
+   at System.IO.Packaging.PackWebResponse.CachedResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.get_ContentType()
+   at MS.Internal.WpfWebRequestHelper.GetContentType(WebResponse response)
+   at MS.Internal.WpfWebRequestHelper.GetResponseStream(WebRequest request, ContentType& contentType)
+   at System.Windows.ResourceDictionary.set_Source(Uri value)
+   at DDCInteligence.App.UpdateTheme(SkinType skin) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\App.xaml.cs:line 47
+Error Occurred In : UpdateTheme
+
+

@@ -1,0 +1,235 @@
+Time             : 14:02:23
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<GetLookupAccountDetailsByColumnAsync>d__162`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1093
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.<ShowAccountSelectionForm>d__65.MoveNext() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 825
+Error Occurred In : ShowAccountSelectionForm
+
+
+Time             : 14:18:06
+Error            : Cannot implicitly convert type 'System.Collections.Generic.List<DDCInteligence.DataTypes.LookupDatabaseTypes.ThirdPartyInfo>' to 'System.Collections.Generic.IEnumerable<DDCInteligence.DataTypes.LookupDatabaseTypes.CustomerInfo>'. An explicit conversion exists (are you missing a cast?)
+StackTrace       : at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.<HandleNameLookup>d__70.MoveNext() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 912
+Error Occurred In : HandleNameLookup
+
+
+Time             : 15:07:40
+Error            : Cannot implicitly convert type 'System.Collections.Generic.List<DDCInteligence.DataTypes.LookupDatabaseTypes.ThirdPartyInfo>' to 'System.Collections.Generic.IEnumerable<DDCInteligence.DataTypes.LookupDatabaseTypes.CustomerInfo>'. An explicit conversion exists (are you missing a cast?)
+StackTrace       : at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.<HandleNameLookup>d__70.MoveNext() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 912
+Error Occurred In : HandleNameLookup
+
+
+Time             : 19:02:31
+Error            : The used SELECT statements have a different number of columns
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<GetLookupByCommand>d__163`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1109
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.<HandleNameLookup>d__70.MoveNext() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 934
+Error Occurred In : HandleNameLookup
+
+
+Time             : 19:02:35
+Error            : The used SELECT statements have a different number of columns
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<GetLookupByCommand>d__163`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1109
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.<HandleNameLookup>d__70.MoveNext() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 934
+Error Occurred In : HandleNameLookup
+
+
+Time             : 19:09:53
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.GetConnectionString(Object databaseConnection, Boolean isLookup) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 47
+Error Occurred In : GetConnectionString
+
+
+Time             : 19:09:55
+Error            : Host 'host.docker.internal' is not allowed to connect to this MySQL server
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Models.LoginModel.<AuthenticateUserAsync>d__35.MoveNext() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Models\LoginModel.cs:line 163
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at DDCInteligence.Models.LoginModel.<Login>d__32.MoveNext() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Models\LoginModel.cs:line 80
+Error Occurred In : Login
+
+
+Time             : 19:10:48
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.GetConnectionString(Object databaseConnection, Boolean isLookup) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 47
+Error Occurred In : GetConnectionString
+
+
+Time             : 19:10:49
+Error            : Host 'host.docker.internal' is not allowed to connect to this MySQL server
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Models.LoginModel.<AuthenticateUserAsync>d__35.MoveNext() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Models\LoginModel.cs:line 163
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CallSite.Target(Closure , CallSite , Object )
+   at DDCInteligence.Models.LoginModel.<Login>d__32.MoveNext() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Models\LoginModel.cs:line 80
+Error Occurred In : Login
+
+
+Time             : 20:13:11
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.GetConnectionString(Object databaseConnection, Boolean isLookup) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 47
+Error Occurred In : GetConnectionString
+
+
+Time             : 20:13:12
+Error            : Host 'host.docker.internal' is not allowed to connect to this MySQL server
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Models.LoginModel.<AuthenticateUserAsync>d__35.MoveNext() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Models\LoginModel.cs:line 163
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at DDCInteligence.Models.LoginModel.<Login>d__32.MoveNext() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Models\LoginModel.cs:line 80
+Error Occurred In : Login
+
+

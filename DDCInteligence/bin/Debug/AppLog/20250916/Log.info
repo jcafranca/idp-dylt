@@ -1,0 +1,87 @@
+Time             : 13:55:41
+Error            : The current value of the SelectionUnit property on the parent DataGrid prevents rows from being selected.
+StackTrace       : at System.Windows.Controls.DataGridRow.OnIsSelectedChanged(Object sender, DependencyPropertyChangedEventArgs e)
+   at System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   at System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   at System.Windows.Controls.DataGridRow.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   at System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   at System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   at System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   at System.Windows.DependencyObject.SetCurrentValueInternal(DependencyProperty dp, Object value)
+   at System.Windows.Controls.Primitives.Selector.ItemSetIsSelected(ItemInfo info, Boolean value)
+   at System.Windows.Controls.Primitives.Selector.SelectionChanger.CreateDeltaSelectionChange(List`1 unselectedItems, List`1 selectedItems)
+   at System.Windows.Controls.Primitives.Selector.SelectionChanger.End()
+   at System.Windows.Controls.Primitives.Selector.SelectionChanger.SelectJustThisItem(ItemInfo info, Boolean assumeInItemsCollection)
+   at System.Windows.Controls.Primitives.Selector.OnSelectedItemChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+   at System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   at System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   at System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   at System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   at System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   at System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   at System.Windows.Controls.Primitives.Selector.set_SelectedItem(Object value)
+   at DDCInteligence.View.UserControl.ItemsContent.DataGridCell_PreviewMouseLeftButtonDown(Object sender, MouseButtonEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\View\UserControl\ItemsContent.xaml.cs:line 106
+Error Occurred In : DataGridCell_PreviewMouseLeftButtonDown
+
+
+Time             : 13:56:01
+Error            : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace       : at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DotNetCS.ImageViewer.PictureBox.SetRubberBand(String value)
+   at DDCInteligence.View.UserControl.ItemsContent.DataGridCell_PreviewMouseLeftButtonDown(Object sender, MouseButtonEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\View\UserControl\ItemsContent.xaml.cs:line 108
+Error Occurred In : DataGridCell_PreviewMouseLeftButtonDown
+
+
+Time             : 13:57:44
+Error            : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace       : at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DotNetCS.ImageViewer.PictureBox.SetRubberBand(String value)
+   at DDCInteligence.View.UserControl.ItemsContent.DataGridCell_PreviewMouseLeftButtonDown(Object sender, MouseButtonEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\View\UserControl\ItemsContent.xaml.cs:line 108
+Error Occurred In : DataGridCell_PreviewMouseLeftButtonDown
+
+
+Time             : 13:58:43
+Error            : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace       : at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DotNetCS.ImageViewer.PictureBox.SetRubberBand(String value)
+   at DDCInteligence.View.UserControl.ItemsContent.DataGridCell_PreviewMouseLeftButtonDown(Object sender, MouseButtonEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\View\UserControl\ItemsContent.xaml.cs:line 108
+Error Occurred In : DataGridCell_PreviewMouseLeftButtonDown
+
+
+Time             : 13:58:55
+Error            : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace       : at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DotNetCS.ImageViewer.PictureBox.SetRubberBand(String value)
+   at DDCInteligence.View.UserControl.ItemsContent.DataGridCell_PreviewMouseLeftButtonDown(Object sender, MouseButtonEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\View\UserControl\ItemsContent.xaml.cs:line 108
+Error Occurred In : DataGridCell_PreviewMouseLeftButtonDown
+
+
+Time             : 19:59:01
+Error            : Unable to cast object of type 'System.Windows.Controls.TextBox' to type 'DDCInteligence.Models.AccountsModel'.
+StackTrace       : at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.HandleTextBoxKeyDown(TextBox textBox, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 312
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.AssociatedObject_PreviewKeyDown(Object sender, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 80
+Error Occurred In : AssociatedObject_PreviewKeyDown
+
+
+Time             : 19:59:02
+Error            : Unable to cast object of type 'System.Windows.Controls.TextBox' to type 'DDCInteligence.Models.AccountsModel'.
+StackTrace       : at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.HandleTextBoxKeyDown(TextBox textBox, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 312
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.AssociatedObject_PreviewKeyDown(Object sender, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 80
+Error Occurred In : AssociatedObject_PreviewKeyDown
+
+
+Time             : 19:59:05
+Error            : Unable to cast object of type 'System.Windows.Controls.TextBox' to type 'DDCInteligence.Models.AccountsModel'.
+StackTrace       : at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.HandleTextBoxKeyDown(TextBox textBox, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 312
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.AssociatedObject_PreviewKeyDown(Object sender, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 80
+Error Occurred In : AssociatedObject_PreviewKeyDown
+
+

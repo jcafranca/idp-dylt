@@ -1,0 +1,1092 @@
+Time             : 13:51:29
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 13:51:29
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 13:57:30
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 13:57:30
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:01:16
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:01:17
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:01:20
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:01:20
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:21:04
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:21:04
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:41:57
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:41:57
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:46:46
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:46:46
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:51:45
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:51:45
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:53:19
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:53:19
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 15:00:49
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 15:00:49
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:31:27
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:31:27
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:34:48
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:34:48
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:36:29
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:36:29
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:37:15
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:37:18
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:37:18
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:42:04
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:42:04
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:43:01
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:43:01
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:45:05
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:45:05
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:46:22
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:46:22
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:52:32
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:52:34
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:52:34
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:59:07
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 16:59:07
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:00:31
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:00:31
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:08:19
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:08:19
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:08:52
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:08:52
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:10:40
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:10:40
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:11:02
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:11:02
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:12:16
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:12:16
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:13:13
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:13:13
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:17:13
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:17:13
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:17:33
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:17:33
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:20:59
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:20:59
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:21:29
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:21:29
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:22:36
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:22:37
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:23:44
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:23:44
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:26:14
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:26:14
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:39:12
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:39:12
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:44:28
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:44:28
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:50:45
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:50:45
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:52:31
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 17:52:31
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+

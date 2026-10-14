@@ -1,0 +1,992 @@
+Time             : 17:36:11
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:12
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:13
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:14
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:15
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:16
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:17
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:18
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:19
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:20
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:21
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:22
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:23
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:24
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:25
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:26
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:27
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:28
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:29
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:30
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:31
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:32
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:33
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:34
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:35
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:36
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:37
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:38
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:39
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:40
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:41
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:36:43
+Error            : The member id of type <>f__AnonymousType1`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass83_0.<RequestTimer_Tick>b__0(Document d, BillingInfo dt) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 290
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__0(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TReturn](IDbConnection cnn, String sql, Func`3 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 286
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:38:57
+Error            : The member id of type <>f__AnonymousType1`1[[System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 292
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:38:58
+Error            : The member id of type <>f__AnonymousType1`1[[System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 292
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:38:59
+Error            : The member id of type <>f__AnonymousType1`1[[System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 292
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:39:00
+Error            : The member id of type <>f__AnonymousType1`1[[System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 292
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:39:01
+Error            : The member id of type <>f__AnonymousType1`1[[System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 292
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:39:02
+Error            : The member id of type <>f__AnonymousType1`1[[System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 292
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:39:03
+Error            : The member id of type <>f__AnonymousType1`1[[System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 292
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:39:04
+Error            : The member id of type <>f__AnonymousType1`1[[System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 292
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:39:16
+Error            : The member id of type <>f__AnonymousType1`1[[System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] cannot be used as a parameter value
+StackTrace       : at Dapper.SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler& handler)
+   at Dapper.DynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity)
+   at Dapper.SqlMapper.<>c__DisplayClass161_0.<GetCacheInfo>b__0(IDbCommand cmd, Object obj)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Get[T](IDbConnection connection, Object id, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 180
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 292
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:52:10
+Error            : When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id
+Parameter name: splitOn
+StackTrace       : at Dapper.SqlMapper.GetNextSplit(Int32 startIdx, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.GenerateDeserializers(Type[] types, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TReturn](IDbConnection cnn, String sql, Func`4 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 285
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:52:11
+Error            : When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id
+Parameter name: splitOn
+StackTrace       : at Dapper.SqlMapper.GetNextSplit(Int32 startIdx, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.GenerateDeserializers(Type[] types, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TReturn](IDbConnection cnn, String sql, Func`4 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 285
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:52:12
+Error            : When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id
+Parameter name: splitOn
+StackTrace       : at Dapper.SqlMapper.GetNextSplit(Int32 startIdx, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.GenerateDeserializers(Type[] types, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TReturn](IDbConnection cnn, String sql, Func`4 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 285
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:52:13
+Error            : When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id
+Parameter name: splitOn
+StackTrace       : at Dapper.SqlMapper.GetNextSplit(Int32 startIdx, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.GenerateDeserializers(Type[] types, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TReturn](IDbConnection cnn, String sql, Func`4 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 285
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:52:14
+Error            : When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id
+Parameter name: splitOn
+StackTrace       : at Dapper.SqlMapper.GetNextSplit(Int32 startIdx, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.GenerateDeserializers(Type[] types, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TReturn](IDbConnection cnn, String sql, Func`4 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 285
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:52:15
+Error            : When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id
+Parameter name: splitOn
+StackTrace       : at Dapper.SqlMapper.GetNextSplit(Int32 startIdx, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.GenerateDeserializers(Type[] types, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TReturn](IDbConnection cnn, String sql, Func`4 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 285
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:52:16
+Error            : When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id
+Parameter name: splitOn
+StackTrace       : at Dapper.SqlMapper.GetNextSplit(Int32 startIdx, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.GenerateDeserializers(Type[] types, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TReturn](IDbConnection cnn, String sql, Func`4 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 285
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 17:52:17
+Error            : When using the multi-mapping APIs ensure you set the splitOn param if you have keys other than Id
+Parameter name: splitOn
+StackTrace       : at Dapper.SqlMapper.GetNextSplit(Int32 startIdx, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.GenerateDeserializers(Type[] types, String splitOn, IDataReader reader)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TReturn](IDbConnection cnn, String sql, Func`4 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__83.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 285
+Error Occurred In : RequestTimer_Tick
+
+

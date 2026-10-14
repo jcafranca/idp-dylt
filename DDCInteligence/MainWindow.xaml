@@ -1,0 +1,393 @@
+﻿<hc:Window
+    x:Class="DDCInteligence.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:behavior="clr-namespace:DDCInteligence.Utilities.Behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:hc="https://handyorg.github.io/handycontrol"
+    xmlns:local="clr-namespace:DDCInteligence"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:uc="clr-namespace:DDCInteligence.View.UserControl"
+    Title=""
+    MinWidth="1360"
+    MinHeight="450"
+    DataContext="{Binding Source={StaticResource Locator}, Path=Main}"
+    Icon="/Resources/Images/apex.ico"
+    WindowStartupLocation="CenterScreen"
+    WindowState="Maximized"
+    mc:Ignorable="d">
+
+    <Window.Resources>
+        <Style x:Key="Border4FlexPanelDemoStyle" TargetType="Border">
+            <Setter Property="Width" Value="auto" />
+            <Setter Property="Background" Value="{DynamicResource SecondaryRegionBrush}" />
+            <Setter Property="CornerRadius" Value="10" />
+        </Style>
+    </Window.Resources>
+    <Border>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0*" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.RowSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <StatusBar Background="#19233d">
+                    <StatusBarItem HorizontalAlignment="Left">
+                        <hc:UniformSpacingPanel Orientation="Horizontal" Spacing="10">
+                            <hc:UniformSpacingPanel Orientation="Horizontal" Spacing="5">
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="SemiBold"
+                                    Foreground="Silver"
+                                    Text="PRO:" />
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="Bold"
+                                    Foreground="#ffd500"
+                                    Text="{Binding Source={StaticResource Locator}, Path=Process.CurrentDocument.pro_number, TargetNullValue=000000000, FallbackValue=000000000}" />
+                            </hc:UniformSpacingPanel>
+                            <hc:UniformSpacingPanel Orientation="Horizontal" Spacing="5">
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="SemiBold"
+                                    Foreground="Silver"
+                                    Text="Type:" />
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="Bold"
+                                    Foreground="#ffd500"
+                                    Text="{Binding Source={StaticResource Locator}, Path=Process.CurrentDocument.bill_type_name, FallbackValue=None}" />
+                            </hc:UniformSpacingPanel>
+                        </hc:UniformSpacingPanel>
+                    </StatusBarItem>
+                    <StatusBarItem Margin="0,0,-15,0" HorizontalAlignment="Right">
+                        <hc:UniformSpacingPanel Orientation="Horizontal" Spacing="8">
+                            <TextBlock
+                                FontFamily="Consolas"
+                                FontWeight="SemiBold"
+                                Foreground="#ffd500"
+                                Text="{Binding Source={StaticResource Locator}, Path=Process.OcrMessage}">
+                                <TextBlock.Effect>
+                                    <DropShadowEffect
+                                        BlurRadius="10"
+                                        Opacity="1"
+                                        ShadowDepth="0"
+                                        Color="#ffd500" />
+                                </TextBlock.Effect>
+                            </TextBlock>
+                            <hc:UniformSpacingPanel Orientation="Horizontal" Spacing="5">
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="SemiBold"
+                                    Foreground="Silver"
+                                    Text="Page:" />
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="Bold"
+                                    Foreground="#ffd500"
+                                    Text="{Binding Source={StaticResource Locator}, Path=ImageViewer.CurrentPage, FallbackValue=0, TargetNullValue=0}" />
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="SemiBold"
+                                    Foreground="Silver"
+                                    Text="of" />
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="Bold"
+                                    Foreground="#ffd500"
+                                    Text="{Binding Source={StaticResource Locator}, Path=ImageViewer.TotalPage, FallbackValue=0, TargetNullValue=0}" />
+                            </hc:UniformSpacingPanel>
+                            <hc:UniformSpacingPanel
+                                Orientation="Horizontal"
+                                Spacing="5"
+                                Visibility="{Binding Source={StaticResource Locator}, Path=Process.CurrentRole, Converter={StaticResource Role2VisibilityConverter}}">
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="SemiBold"
+                                    Foreground="Silver"
+                                    Text="Keyed By:" />
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="Bold"
+                                    Foreground="#ffd500"
+                                    Text="{Binding Source={StaticResource Locator}, Path=Process.KeyedBy, FallbackValue=None, TargetNullValue=NONE}" />
+                            </hc:UniformSpacingPanel>
+                            <hc:UniformSpacingPanel
+                                x:Name="ocr_type"
+                                Orientation="Horizontal"
+                                Spacing="5">
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="SemiBold"
+                                    Foreground="Silver"
+                                    Text="OCR Type:" />
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="Bold"
+                                    Foreground="#ffd500"
+                                    Text="FORMLESS" />
+                            </hc:UniformSpacingPanel>
+                            <hc:UniformSpacingPanel Orientation="Horizontal" Spacing="5">
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="SemiBold"
+                                    Foreground="Silver"
+                                    Text="Project Code:" />
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="Bold"
+                                    Foreground="#ffd500"
+                                    Text="DYLT" />
+                            </hc:UniformSpacingPanel>
+                        </hc:UniformSpacingPanel>
+                    </StatusBarItem>
+                </StatusBar>
+                <StatusBar
+                    Grid.Row="1"
+                    VerticalContentAlignment="Center"
+                    Background="blue">
+                    <StatusBarItem
+                        Width="800"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Center"
+                        FontSize="14"
+                        Foreground="#fff"
+                        Visibility="{Binding Source={StaticResource Locator}, Path=Process.Prompt, Converter={StaticResource PromptVisibilityConverter}}">
+                        <StatusBarItem.Content>
+                            <StackPanel
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Orientation="Vertical">
+                                <TextBlock HorizontalAlignment="Center" Text="{Binding Source={StaticResource Locator}, Path=Process.Prompt, UpdateSourceTrigger=PropertyChanged}" />
+                            </StackPanel>
+                        </StatusBarItem.Content>
+                    </StatusBarItem>
+                </StatusBar>
+                <DockingManager
+                    x:Name="dockManager"
+                    Grid.Row="2"
+                    AllowMixedOrientation="True"
+                    Background="Transparent"
+                    Theme="{Binding AvalonDockTheme}">
+                    <LayoutRoot>
+                        <LayoutPanel Orientation="Horizontal">
+                            <LayoutAnchorablePane DockMinWidth="680" DockWidth="50*">
+                                <LayoutAnchorable
+                                    Title="Document Details"
+                                    CanAutoHide="False"
+                                    CanClose="False"
+                                    CanDockAsTabbedDocument="False"
+                                    CanFloat="True"
+                                    CanHide="False"
+                                    ContentId="DocumentDetailsWindow">
+                                    <ContentControl
+                                        x:Name="Wrapper"
+                                        hc:ScrollViewer.IsInertiaEnabled="True"
+                                        IsEnabled="{Binding Source={StaticResource Locator}, Path=Process.CurrentState, Converter={StaticResource State2BooleanConverter}}">
+                                        <Grid>
+                                            <uc:Preloader
+                                                Panel.ZIndex="10000"
+                                                Text="{Binding Source={StaticResource Locator}, Path=Process.StatusMessage}"
+                                                Visibility="{Binding Source={StaticResource Locator}, Path=Process.CurrentState, Converter={StaticResource State2VisibilityConverter}}" />
+
+                                            <hc:ScrollViewer
+                                                x:Name="entry_container"
+                                                HorizontalScrollBarVisibility="Disabled"
+                                                IsInertiaEnabled="True"
+                                                VerticalScrollBarVisibility="Auto"
+                                                Visibility="Visible">
+
+                                                <hc:UniformSpacingPanel Orientation="Vertical" Spacing="5">
+
+                                                    <uc:HeaderFields x:Name="header" Width="{Binding ElementName=Holder, Path=ActualWidth}" />
+
+                                                    <hc:FlexPanel
+                                                        x:Name="Holder"
+                                                        AlignContent="Center"
+                                                        AlignItems="FlexStart"
+                                                        FlexWrap="Wrap"
+                                                        JustifyContent="Center"
+                                                        SizeChanged="Holder_SizeChanged">
+                                                        <uc:ShipperContent
+                                                            x:Name="shipper"
+                                                            Width="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:MainWindow}}, Path=ShipperWidth}"
+                                                            Margin="2.5" />
+                                                        <uc:ConsigneeContent
+                                                            x:Name="consignee"
+                                                            Width="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:MainWindow}}, Path=ConsigneeWidth}"
+                                                            Margin="2.5" />
+                                                        <uc:_3rdPartyContent
+                                                            x:Name="billto"
+                                                            Width="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:MainWindow}}, Path=BillToWidth}"
+                                                            Margin="2.5" />
+                                                    </hc:FlexPanel>
+
+                                                    <StackPanel Width="{Binding ElementName=Holder, Path=ActualWidth}" Orientation="Vertical">
+                                                        <uc:ReferencesContent x:Name="billinfo" />
+                                                        <Grid Margin="5,5,5,0">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="*" />
+                                                                <ColumnDefinition Width="*" />
+                                                            </Grid.ColumnDefinitions>
+                                                            <uc:InstructionContent x:Name="instruction" />
+                                                            <uc:ReferenceTableContent
+                                                                x:Name="reference"
+                                                                Grid.Column="1"
+                                                                Margin="5,0,0,0" />
+                                                        </Grid>
+                                                    </StackPanel>
+
+                                                    <uc:ItemsContent x:Name="items" Width="{Binding ElementName=Holder, Path=ActualWidth}" />
+                                                    <uc:AccessorialContent x:Name="accesorials" Width="{Binding ElementName=Holder, Path=ActualWidth}" />
+
+                                                </hc:UniformSpacingPanel>
+                                            </hc:ScrollViewer>
+                                        </Grid>
+                                    </ContentControl>
+                                </LayoutAnchorable>
+                            </LayoutAnchorablePane>
+                            <LayoutAnchorablePane
+                                x:Name="IViewerControl"
+                                DockMinWidth="650"
+                                DockWidth="50*">
+                                <LayoutAnchorable
+                                    Title="Image Viewer"
+                                    CanAutoHide="False"
+                                    CanClose="False"
+                                    CanFloat="True"
+                                    CanHide="False"
+                                    ContentId="ImageViewerWindow">
+                                    <ContentControl>
+                                        <Grid>
+                                            <uc:Preloader
+                                                Panel.ZIndex="10000"
+                                                Text="{Binding Source={StaticResource Locator}, Path=Process.PreloaderImageMessage}"
+                                                Visibility="{Binding Source={StaticResource Locator}, Path=Process.CurrentState, Converter={StaticResource State2VisibilityConverter}}" />
+                                            <uc:ImageViewerContent IsEnabled="{Binding Source={StaticResource Locator}, Path=Process.CurrentState, Converter={StaticResource State2BooleanConverter}}" />
+                                        </Grid>
+                                    </ContentControl>
+                                </LayoutAnchorable>
+                            </LayoutAnchorablePane>
+                        </LayoutPanel>
+                    </LayoutRoot>
+                </DockingManager>
+                <StatusBar
+                    x:Name="permanentPromptContainer"
+                    Grid.Row="3"
+                    VerticalContentAlignment="Center"
+                    Background="blue">
+                    <StatusBarItem
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Center"
+                        FontSize="14"
+                        Foreground="#fff">
+                        <StatusBarItem.Content>
+                            <StackPanel
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Orientation="Vertical">
+                                <TextBlock x:Name="permanentPromptMessage" HorizontalAlignment="Center" />
+                            </StackPanel>
+                        </StatusBarItem.Content>
+                    </StatusBarItem>
+                </StatusBar>
+                <StatusBar Grid.Row="4" Background="#19233d">
+                    <StatusBarItem>
+                        <hc:UniformSpacingPanel Orientation="Horizontal" Spacing="8">
+                            <hc:UniformSpacingPanel Orientation="Horizontal" Spacing="5">
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="SemiBold"
+                                    Foreground="Silver"
+                                    Text="Server:" />
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="Bold"
+                                    Foreground="#ffd500"
+                                    Text="{Binding Source={StaticResource Locator}, Path=Process.ServerText, Mode=OneTime}" />
+                            </hc:UniformSpacingPanel>
+                            <TextBlock
+                                Margin="0,-13"
+                                VerticalAlignment="Center"
+                                FontSize="20"
+                                Foreground="White"
+                                Text="." />
+                            <hc:UniformSpacingPanel Orientation="Horizontal" Spacing="5">
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="SemiBold"
+                                    Foreground="Silver"
+                                    Text="DateTime:" />
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="Bold"
+                                    Foreground="#ffd500"
+                                    Text="{Binding ComputerTime, Converter={StaticResource DateTime2StringConverter}, Mode=OneWay}" />
+                            </hc:UniformSpacingPanel>
+                        </hc:UniformSpacingPanel>
+                    </StatusBarItem>
+                    <StatusBarItem HorizontalAlignment="Right">
+                        <hc:UniformSpacingPanel Orientation="Horizontal" Spacing="8">
+                            <hc:UniformSpacingPanel Orientation="Horizontal" Spacing="5">
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="SemiBold"
+                                    Foreground="Silver"
+                                    Text="Start:" />
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="Bold"
+                                    Foreground="#ffd500"
+                                    Text="{Binding Source={StaticResource Locator}, Path=Process.StartTime, Mode=OneWay, TargetNullValue=00:00:00, FallbackValue=00:00:00}" />
+                            </hc:UniformSpacingPanel>
+                            <TextBlock
+                                Margin="0,-13"
+                                VerticalAlignment="Center"
+                                FontSize="20"
+                                Foreground="White"
+                                Text="." />
+                            <hc:UniformSpacingPanel Orientation="Horizontal" Spacing="5">
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="SemiBold"
+                                    Foreground="Silver"
+                                    Text="Elapsed:" />
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="Bold"
+                                    Foreground="#ffd500"
+                                    Text="{Binding Source={StaticResource Locator}, Path=Process.Elapsed, Mode=OneWay, TargetNullValue=00:00:00, FallbackValue=00:00:00}" />
+                            </hc:UniformSpacingPanel>
+                            <TextBlock
+                                Margin="0,-13"
+                                VerticalAlignment="Center"
+                                FontSize="20"
+                                Foreground="White"
+                                Text="." />
+                            <hc:UniformSpacingPanel Orientation="Horizontal" Spacing="5">
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="SemiBold"
+                                    Foreground="Silver"
+                                    Text="Mode:" />
+                                <TextBlock
+                                    FontFamily="Consolas"
+                                    FontWeight="Bold"
+                                    Foreground="#ffd500"
+                                    Text="{Binding Source={StaticResource Locator}, Path=Process.CurrentState}" />
+                            </hc:UniformSpacingPanel>
+                        </hc:UniformSpacingPanel>
+                    </StatusBarItem>
+                </StatusBar>
+            </Grid>
+        </Grid>
+    </Border>
+</hc:Window>

@@ -1,0 +1,140 @@
+Time             : 12:43:00
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 12:43:00
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 13:42:45
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 13:42:45
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:15:03
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 14:15:03
+Error            : Authentication to host 'localhost' for user 'alluser' using method 'mysql_native_password' failed with message: Access denied for user 'alluser'@'localhost' (using password: YES)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 20:25:35
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 20:25:35
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 20:42:54
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 20:42:54
+Error            : Retrieval of the RSA public key is not enabled for insecure connections.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+

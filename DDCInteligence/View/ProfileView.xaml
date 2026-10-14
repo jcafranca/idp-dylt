@@ -1,0 +1,731 @@
+﻿<Window x:Class="DDCInteligence.View.ProfileView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DDCInteligence.View"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:b="clr-namespace:DDCInteligence.Utilities.Behaviors"
+        mc:Ignorable="d"
+        Title="Profile Settings" Height="600" Width="900"
+        Background="{DynamicResource RegionBrush}"        
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <!-- Sidebar Button Style -->
+        <Style x:Key="SidebarButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="#6B7280"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="12 6"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="ButtonBorder" 
+                                Background="{TemplateBinding Background}" 
+                                CornerRadius="6"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                            VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="ButtonBorder" Property="Background" Value="#F3F4F6"/>
+                                <Setter Property="Foreground" Value="#374151"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="ButtonBorder" Property="Background" Value="#E5E7EB"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Input PasswordBox Style -->
+        <Style x:Key="InputPasswordBoxStyle" TargetType="PasswordBox">
+            <Setter Property="Padding" Value="4"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="#111827"/>
+            <Setter Property="BorderBrush" Value="#D1D5DB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="PasswordBox">
+                        <Border Name="PasswordBoxBorder"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="6"
+                                Padding="{TemplateBinding Padding}">
+                            <ScrollViewer Name="PART_ContentHost" 
+                                        VerticalAlignment="Center"
+                                        Focusable="False"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="PasswordBoxBorder" Property="BorderBrush" Value="#3B82F6"/>
+                                <Setter TargetName="PasswordBoxBorder" Property="BorderThickness" Value="2"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="PasswordBoxBorder" Property="BorderBrush" Value="#9CA3AF"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Input TextBox Style -->
+        <Style x:Key="InputTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Padding" Value="4"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="#111827"/>
+            <Setter Property="BorderBrush" Value="#D1D5DB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Name="TextBoxBorder"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="6"
+                                Padding="{TemplateBinding Padding}">
+                            <ScrollViewer Name="PART_ContentHost" 
+                                        VerticalAlignment="Center"
+                                        Focusable="False"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="TextBoxBorder" Property="BorderBrush" Value="#3B82F6"/>
+                                <Setter TargetName="TextBoxBorder" Property="BorderThickness" Value="2"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="TextBoxBorder" Property="BorderBrush" Value="#9CA3AF"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Drop Shadow Effect -->
+        <DropShadowEffect x:Key="DropShadowEffect" Color="Black" Direction="270" ShadowDepth="2" Opacity="0.1" BlurRadius="8"/>
+
+        <!-- Primary Button Style -->
+        <Style x:Key="PrimaryButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#111827"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="16 8"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="ButtonBorder"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="6"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="ButtonBorder" Property="Background" Value="#1F2937"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="ButtonBorder" Property="Background" Value="#0F172A"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Danger Button Style -->
+        <Style x:Key="DangerButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#DC2626"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="16 8"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="ButtonBorder"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="6"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="ButtonBorder" Property="Background" Value="#B91C1C"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="ButtonBorder" Property="Background" Value="#991B1B"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Border Grid.Row="0" Grid.ColumnSpan="2" Background="#111827" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0 0 0 1" Padding="0 0 0 15">
+            <StackPanel Margin="20 0">
+                <TextBlock Text="Settings" FontSize="24"  FontWeight="Bold" Margin="0,10,0,5" Foreground="#fff"/>
+                <TextBlock Text="Manage your profile and account settings" FontSize="12" Foreground="Silver" TextWrapping="NoWrap"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Left Sidebar -->
+        <Border Grid.Column="0" Grid.Row="1" Background="{DynamicResource RegionBrush}" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0 0 1 0">
+            <!-- Navigation Menu -->
+            <StackPanel Margin="20">
+                <Button Name="ProfileButton" IsTabStop="False" Style="{StaticResource SidebarButtonStyle}" Content="Profile" Margin="0,0,0,5" Click="ProfileButton_Click"/>
+                <Button Name="PasswordButton" IsTabStop="False" Style="{StaticResource SidebarButtonStyle}" Content="Password" Margin="0,0,0,5" Click="PasswordButton_Click"/>
+                <Button Name="AppearanceButton" IsTabStop="False" Style="{StaticResource SidebarButtonStyle}" Content="Appearance" Margin="0,0,0,5" Click="AppearanceButton_Click"/>
+                <Button Name="ApplicationButton" IsTabStop="False" Style="{StaticResource SidebarButtonStyle}" Content="Application" Margin="0,0,0,5" Click="ApplicationButton_Click" />
+                <Button Name="HotkeysButton" IsTabStop="False" Style="{StaticResource SidebarButtonStyle}" Content="Hotkeys" Margin="0,0,0,5" Click="HotkeysButton_Click" />
+            </StackPanel>
+        </Border>
+
+        <!-- Main Content Area -->
+        <ScrollViewer Grid.Column="1" Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel Name="ContentPanel"  Margin="40 20 40 30" MaxWidth="600" HorizontalAlignment="Left">
+
+                <!-- Profile View -->
+                <StackPanel Name="ProfileInfoView" Visibility="Visible">
+                    <!-- Profile Information Section -->
+                    <StackPanel Margin="0,0,0,40">
+                        <TextBlock Text="Profile information" FontSize="20" FontWeight="SemiBold" Margin="0,0,0,5" Foreground="{DynamicResource PrimaryTextBrush}"/>
+                        <TextBlock Text="Update your user information here" FontSize="12" Foreground="#6B7280" Margin="0,0,0,25"/>
+
+                        <!-- Profile Field -->
+                        <StackPanel HorizontalAlignment="Left" Width="110">
+                            <TextBlock Text="Profile Picture" FontSize="12" FontWeight="Medium" Margin="0,0,0,8" Foreground="#374151"/>
+
+                            <Border Height="180" Padding="0 0 0 12">
+                                <Border.Effect>
+                                    <DropShadowEffect BlurRadius="15" ShadowDepth="0" Opacity="0.08" Color="#000000"/>
+                                </Border.Effect>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid>
+                                        <Border x:Name="ProfileImageBorder" Background="#E8D5D5" CornerRadius="8" Height="130" VerticalAlignment="Top">
+                                            <Image x:Name="ProfileImage" Source="{Binding Source={StaticResource Locator}, Path=Process.CurrentBiller.profilePicture, UpdateSourceTrigger=PropertyChanged}" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                        </Border>
+                                        <!-- Upload Icon Overlay (shows when no image) -->
+                                        <Border x:Name="UploadIconOverlay" Background="Transparent" Visibility="Visible">
+                                            <Viewbox Width="24" Height="24">
+                                                <Canvas Width="24" Height="24" VerticalAlignment="Center">
+                                                    <Path Fill="#999999"  Data="M9,16V10H5L12,3L19,10H15V16H9M5,20V18H19V20H5Z"/>
+                                                </Canvas>
+                                            </Viewbox>
+                                        </Border>
+
+                                        <!-- Edit Button (Top Right) -->
+
+
+                                        <Button x:Name="RemoveImage" Click="RemoveImage_Click" Width="30" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top" Background="Transparent" BorderBrush="Transparent" Padding="0" Cursor="Hand">
+                                            <Button.Content>
+                                                <Border Background="#fff"
+                                                    CornerRadius="15"
+                                                    Width="24"
+                                                    Height="24"
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center">
+                                                    <Border.Effect>
+                                                        <DropShadowEffect BlurRadius="8" ShadowDepth="0" Opacity="0.15" Color="#000000"/>
+                                                    </Border.Effect>
+
+                                                    <Viewbox Width="12" Height="12" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                                        <Canvas Width="20" Height="20">
+                                                            <Path Stroke="#666666" StrokeThickness="2" Data="M4,4 L16,16 M16,4 L4,16"/>
+                                                        </Canvas>
+                                                    </Viewbox>
+                                                </Border>
+                                            </Button.Content>
+                                        </Button>
+
+
+                                    </Grid>
+                                    <Button x:Name="UploadPhoto" Content="Update Photo" Grid.Row="1" Width="110" Click="UploadPhoto_Click" />
+                                </Grid>
+                            </Border>
+
+                        </StackPanel>
+
+                        <!-- Name Field -->
+                        <StackPanel Margin="0,0,0,20">
+                            <TextBlock Text="Name" FontSize="12" FontWeight="Medium" Margin="0,0,0,8" Foreground="#374151"/>
+                            <TextBox Name="NameTextBox" Text="{Binding Source={StaticResource Locator}, Path=Process.CurrentBiller.fullname}" Style="{StaticResource TextBoxExtend}">
+                                <hc:Interaction.Behaviors>
+                                    <b:PreviewKeydownBehevior/>
+                                </hc:Interaction.Behaviors>
+                            </TextBox>
+                        </StackPanel>
+
+                        <!-- Username and Company ID Field -->
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="10" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Margin="0,0,0,25">
+                                <TextBlock Text="Username" FontSize="12" FontWeight="Medium" Margin="0,0,0,8" Foreground="#374151"/>
+                                <TextBox Name="UsernameTextBox" Text="{Binding Source={StaticResource Locator}, Path=Process.CurrentBiller.username}" Style="{StaticResource TextBoxExtend}">
+                                    <hc:Interaction.Behaviors>
+                                        <b:PreviewKeydownBehevior/>
+                                    </hc:Interaction.Behaviors>
+                                </TextBox>
+                            </StackPanel>
+
+                            <StackPanel Margin="0,0,0,25" Grid.Column="2">
+                                <TextBlock Text="Company Id" FontSize="12" FontWeight="Medium" Margin="0,0,0,8" Foreground="#374151"/>
+                                <TextBox Name="CompanyIdTextBox" Text="{Binding Source={StaticResource Locator}, Path=Process.CurrentBiller.employee_id_number}" Style="{StaticResource TextBoxExtend}">
+                                    <hc:Interaction.Behaviors>
+                                        <b:PreviewKeydownBehevior/>
+                                    </hc:Interaction.Behaviors>
+                                </TextBox>
+                            </StackPanel>
+                        </Grid>
+
+                        <TextBlock Text="{Binding Source={StaticResource Locator}, Path=Process.CurrentBiller.expiration}" FontSize="12" FontWeight="Medium" Margin="0 -10 0 18" Foreground="#dc2626"/>
+
+                        <!-- Save Button -->
+                        <Button Name="SaveButton" Content="Save" Style="{StaticResource PrimaryButtonStyle}" HorizontalAlignment="Left" Click="SaveButton_Click"/>
+                    </StackPanel>
+
+                    <!-- Delete Account Section -->
+                    <StackPanel>
+                        <TextBlock Text="Delete account" FontSize="20" FontWeight="SemiBold" Margin="0,0,0,5" Foreground="{DynamicResource PrimaryTextBrush}"/>
+                        <TextBlock Text="Delete your account and all of its resources" FontSize="12" Foreground="#6B7280" Margin="0,0,0,25"/>
+
+                        <!-- Warning Box -->
+                        <Border Background="#FEF2F2" BorderBrush="#FECACA" BorderThickness="1" CornerRadius="6" Padding="16" Margin="0,0,0,20">
+                            <StackPanel>
+                                <TextBlock Text="Warning" FontSize="12" FontWeight="SemiBold" Foreground="#DC2626" Margin="0,0,0,4"/>
+                                <TextBlock Text="Please proceed with caution, this cannot be undone." FontSize="12" Foreground="#DC2626" TextWrapping="Wrap"/>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- Delete Button -->
+                        <Button Name="DeleteAccountButton" Content="Delete account"  Style="{StaticResource DangerButtonStyle}"  HorizontalAlignment="Left"  Click="DeleteAccountButton_Click"/>
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- Password View -->
+                <StackPanel Name="PasswordView" Visibility="Collapsed">
+                    <TextBlock Text="Update password" FontSize="20" FontWeight="SemiBold" Margin="0,0,0,5" Foreground="{DynamicResource PrimaryTextBrush}"/>
+                    <TextBlock Text="Ensure your account is using a long, random password to stay secure" FontSize="12" Foreground="#6B7280" Margin="0,0,0,25"/>
+
+                    <hc:UniformSpacingPanel Orientation="Vertical" Spacing="20">
+
+                        <!-- Current Password Field -->
+                        <StackPanel>
+                            <TextBlock Text="Current password" FontSize="12" FontWeight="Medium" Margin="0,0,0,8" Foreground="#374151"/>
+                            <PasswordBox Name="CurrentPasswordBox" Style="{StaticResource PasswordBoxExtend}">
+                                <hc:Interaction.Behaviors>
+                                    <b:PreviewKeydownBehevior/>
+                                </hc:Interaction.Behaviors>
+                            </PasswordBox>
+                        </StackPanel>
+
+                        <!-- New Password Field -->
+                        <StackPanel>
+                            <TextBlock Text="New password" FontSize="12" FontWeight="Medium" Margin="0,0,0,8" Foreground="#374151"/>
+                            <PasswordBox Name="NewPasswordBox" Style="{StaticResource PasswordBoxExtend}">
+                                <hc:Interaction.Behaviors>
+                                    <b:PreviewKeydownBehevior/>
+                                </hc:Interaction.Behaviors>
+                            </PasswordBox>
+                        </StackPanel>
+
+                        <!-- Confirm Password Field -->
+                        <StackPanel>
+                            <TextBlock Text="Confirm password" FontSize="12" FontWeight="Medium" Margin="0,0,0,8" Foreground="#374151"/>
+                            <PasswordBox Name="ConfirmPasswordBox" Style="{StaticResource PasswordBoxExtend}">
+                                <hc:Interaction.Behaviors>
+                                    <b:PreviewKeydownBehevior/>
+                                </hc:Interaction.Behaviors>
+                            </PasswordBox>
+                        </StackPanel>
+
+                        <!-- Save Password Button -->
+                        <Button Name="SavePasswordButton" Content="Save password" Style="{StaticResource PrimaryButtonStyle}" HorizontalAlignment="Left" Click="SavePasswordButton_Click"/>
+                    </hc:UniformSpacingPanel>
+                </StackPanel>
+
+                <!-- Appearance View -->
+                <StackPanel Name="AppearanceView" Visibility="Collapsed">
+                    <TextBlock Text="Appearance settings" FontSize="20" FontWeight="SemiBold" Margin="0,0,0,5" Foreground="{DynamicResource PrimaryTextBrush}"/>
+                    <TextBlock Text="Update your account's appearance settings" FontSize="12" Foreground="#6B7280" Margin="0,0,0,25"/>
+
+                    <hc:UniformSpacingPanel Orientation="Vertical" Spacing="20">
+                        <hc:ButtonGroup>
+                            <RadioButton x:Name="Light" Content="Light" Tag="{x:Static hc:SkinType.Default}" Click="ButtonSkins_OnClick"/>
+                            <RadioButton x:Name="Dark" Content="Dark" Tag="{x:Static hc:SkinType.Dark}" Click="ButtonSkins_OnClick"/>
+                            <RadioButton x:Name="Other" Content="Other" Tag="{x:Static hc:SkinType.Violet}" Click="ButtonSkins_OnClick"/>
+                        </hc:ButtonGroup>
+                    </hc:UniformSpacingPanel>
+                </StackPanel>
+
+                <!-- Application View -->
+                <StackPanel Name="ApplicationView" Visibility="Collapsed" Width="400">
+                    <StackPanel Margin="0,0,0,40">
+                        <TextBlock Text="Assembly Information" FontSize="20" FontWeight="SemiBold" Margin="0,0,0,5" Foreground="{DynamicResource PrimaryTextBrush}"/>
+                        <TextBlock Text="Program information list here" FontSize="12" Foreground="#6B7280" Margin="0,0,0,25"/>
+
+                        <Grid>
+                            <Grid.Resources>
+                                <!-- Style for Labels -->
+                                <Style x:Key="LabelStyle" TargetType="TextBlock">
+                                    <Setter Property="FontSize" Value="14"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="Foreground" Value="{StaticResource PrimaryTextBrush}"/>
+                                    <Setter Property="Margin" Value="5 0 5 0"/>
+                                </Style>
+
+                                <!-- Style for Bordered TextBlocks -->
+                                <Style x:Key="ValueBorderStyle" TargetType="Border">
+                                    <Setter Property="BorderBrush" Value="black"/>
+                                    <Setter Property="BorderThickness" Value="1"/>
+                                    <Setter Property="Margin" Value="5 5"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="CornerRadius" Value="5"/>
+                                </Style>
+                            </Grid.Resources>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <!-- 8 rows -->
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- Row 0 -->
+                            <TextBlock Grid.Row="0" Text="Title" Style="{StaticResource LabelStyle}"/>
+                            <TextBox x:Name="lblTitle" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="4" Margin="0 0 0 5" Style="{DynamicResource TextBoxExtend}"/>
+
+                            <!-- Row 1 -->
+                            <TextBlock Grid.Row="1" Text="Description" Style="{StaticResource LabelStyle}"/>
+                            <TextBox x:Name="lblDescription" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Margin="0 0 0 5" Style="{DynamicResource TextBoxExtend}"/>
+
+                            <!-- Row 2 -->
+                            <TextBlock Grid.Row="2" Text="Company" Style="{StaticResource LabelStyle}"/>
+                            <TextBox x:Name="lblCompany" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="4" Margin="0 0 0 5" Style="{DynamicResource TextBoxExtend}"/>
+
+                            <!-- Row 3 -->
+                            <TextBlock Grid.Row="3" Text="Product" Style="{StaticResource LabelStyle}"/>
+                            <TextBox x:Name="lblProduct" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="4" Margin="0 0 0 5" Style="{DynamicResource TextBoxExtend}"/>
+
+                            <!-- Row 4 -->
+                            <TextBlock Grid.Row="4" Text="Copyright" Style="{StaticResource LabelStyle}"/>
+                            <TextBox x:Name="lblCopyright" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="4" Margin="0 0 0 5" Style="{DynamicResource TextBoxExtend}"/>
+
+                            <!-- Row 5 -->
+                            <TextBlock Grid.Row="5" Text="Trademark" Style="{StaticResource LabelStyle}"/>
+                            <TextBox x:Name="lblTrademark" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="4" Margin="0 0 0 5" Style="{DynamicResource TextBoxExtend}"/>
+
+                            <!-- Row 6 -->
+                            <TextBlock Grid.Row="6" Text="Assembly Version" Style="{StaticResource LabelStyle}"/>
+                            <TextBox x:Name="lblAssemblyVesion1" Grid.Row="6" Grid.Column="1" Margin="0 0 5 5" Style="{DynamicResource TextBoxExtend}"/>
+                            <TextBox x:Name="lblAssemblyVesion2" Grid.Row="6" Grid.Column="2" Margin="0 0 5 5" Style="{DynamicResource TextBoxExtend}"/>
+                            <TextBox x:Name="lblAssemblyVesion3" Grid.Row="6" Grid.Column="3" Margin="0 0 5 5" Style="{DynamicResource TextBoxExtend}"/>
+                            <TextBox x:Name="lblAssemblyVesion4" Grid.Row="6" Grid.Column="4" Margin="0 0 0 5" Style="{DynamicResource TextBoxExtend}"/>
+
+                            <!-- Row 7 -->
+                            <TextBlock Grid.Row="7" Text="File Version" Style="{StaticResource LabelStyle}"/>
+                            <TextBox x:Name="lblFileVesion1" Grid.Row="7" Grid.Column="1" Margin="0 0 5 0" Style="{DynamicResource TextBoxExtend}"/>
+                            <TextBox x:Name="lblFileVesion2" Grid.Row="7" Grid.Column="2" Margin="0 0 5 0" Style="{DynamicResource TextBoxExtend}"/>
+                            <TextBox x:Name="lblFileVesion3" Grid.Row="7" Grid.Column="3" Margin="0 0 5 0" Style="{DynamicResource TextBoxExtend}"/>
+                            <TextBox x:Name="lblFileVesion4" Grid.Row="7" Grid.Column="4"  Style="{DynamicResource TextBoxExtend}"/>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- Hotkeys View -->
+                <StackPanel Name="HotkeysView" Visibility="Visible" Width="Auto" CanVerticallyScroll="True" CanHorizontallyScroll="True" Margin="0,0,0,20">
+                    <TextBlock Text="Key Bindings Overview" FontSize="20" FontWeight="SemiBold" Margin="0,0,0,5" Foreground="{DynamicResource PrimaryTextBrush}" />
+                    <TextBlock Text="List of available keyboard shortcuts in the application." FontSize="12" Foreground="#6B7280" Margin="0,0,0,25" />
+
+                    <!-- Main content area with multiple columns -->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Left Column -->
+                        <StackPanel Grid.Column="0" Margin="0,0,10,0">
+
+                            <!-- Code editing section -->
+                            <TextBlock Text="Code editing" FontSize="14" FontWeight="Bold" Margin="0,0,0,8" Foreground="#374151"/>
+
+                            <Grid Margin="0,0,0,20">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="Ctrl + J" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="0" Grid.Column="1" Text="Go to Consignee" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="1" Grid.Column="0" Text="Ctrl + K" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="1" Grid.Column="1" Text="Go to Shipper" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="2" Grid.Column="0" Text="Ctrl + L" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="2" Grid.Column="1" Text="Go to Bill To" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="3" Grid.Column="0" Text="Ctrl + M" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="3" Grid.Column="1" Text="Go to Rate To" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="4" Grid.Column="0" Text="Ctrl + I" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="4" Grid.Column="1" Text="Add Item" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="5" Grid.Column="0" Text="Ctrl + R" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="5" Grid.Column="1" Text="Add Reference" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="6" Grid.Column="0" Text="Ctrl + S" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="6" Grid.Column="1" Text="Set Image" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="7" Grid.Column="0" Text="Ctrl + B" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="7" Grid.Column="1" Text="Best Fit" FontSize="11" Foreground="#374151" Margin="0,2"/>
+                            </Grid>
+
+                            <!-- Navigation section -->
+                            <TextBlock Text="Navigation" FontSize="14" FontWeight="Bold" Margin="0,0,0,8" Foreground="#374151"/>
+
+                            <Grid Margin="0,0,0,20">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="Ctrl + Left" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="0" Grid.Column="1" Text="Previous Page" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="1" Grid.Column="0" Text="Ctrl + Right" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="1" Grid.Column="1" Text="Next Page" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="2" Grid.Column="0" Text="Alt + ↑↓←→" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="2" Grid.Column="1" Text="Arrow Commands" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="3" Grid.Column="0" Text="Delete" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="3" Grid.Column="1" Text="Remove Row" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="4" Grid.Column="0" Text="Ctrl + Insert" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="4" Grid.Column="1" Text="Insert Above" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="5" Grid.Column="0" Text="Insert" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="5" Grid.Column="1" Text="Insert Below" FontSize="11" Foreground="#374151" Margin="0,2"/>
+                            </Grid>
+
+                        </StackPanel>
+
+                        <!-- Middle Column -->
+                        <StackPanel Grid.Column="1" Margin="10,0,10,0">
+
+                            <!-- File management section -->
+                            <TextBlock Text="File management" FontSize="14" FontWeight="Bold" Margin="0,0,0,8" Foreground="#374151"/>
+
+                            <Grid Margin="0,0,0,20">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="F1" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="0" Grid.Column="1" Text="Request" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="1" Grid.Column="0" Text="F2" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="1" Grid.Column="1" Text="De-Allocate" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="2" Grid.Column="0" Text="F3" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="2" Grid.Column="1" Text="Save (Billed)" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="3" Grid.Column="0" Text="F5" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="3" Grid.Column="1" Text="Save" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="4" Grid.Column="0" Text="F11" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="4" Grid.Column="1" Text="Logout" FontSize="11" Foreground="#374151" Margin="0,2"/>
+                            </Grid>
+
+                            <!-- View and display section -->
+                            <TextBlock Text="View and display" FontSize="14" FontWeight="Bold" Margin="0,0,0,8" Foreground="#374151"/>
+
+                            <Grid Margin="0,0,0,20">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="Ctrl + Add" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="0" Grid.Column="1" Text="Zoom In" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="1" Grid.Column="0" Text="Ctrl + Subtract" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="1" Grid.Column="1" Text="Zoom Out" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="2" Grid.Column="0" Text="Ctrl + Space" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="2" Grid.Column="1" Text="Rubber Band Service" TextWrapping="Wrap" FontSize="11" Foreground="#374151" Margin="0,2"/>
+                            </Grid>
+
+                            <!-- Advanced section -->
+                            <TextBlock Text="Advanced" FontSize="14" FontWeight="Bold" Margin="0,0,0,8" Foreground="#374151"/>
+
+                            <Grid Margin="0,0,0,20">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="Ctrl + Alt + Z" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="0" Grid.Column="1" Text="Go to Pro" FontSize="11" Foreground="#374151" Margin="0,2"/>
+                            </Grid>
+
+                        </StackPanel>
+
+                        <!-- Right Column -->
+                        <StackPanel Grid.Column="2" Margin="10,0,0,0">
+
+                            <!-- Break commands section -->
+                            <TextBlock Text="Break commands" FontSize="14" FontWeight="Bold" Margin="0,0,0,8" Foreground="#374151"/>
+
+                            <Grid Margin="0,0,0,20">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="F7" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="0" Grid.Column="1" Text="Idle Break" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="1" Grid.Column="0" Text="F8" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="1" Grid.Column="1" Text="Meal Break" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="2" Grid.Column="0" Text="F9" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="2" Grid.Column="1" Text="Nature Break" FontSize="11" Foreground="#374151" Margin="0,2"/>
+                            </Grid>
+
+                            <!-- Quick access section -->
+                            <TextBlock Text="Quick access" FontSize="14" FontWeight="Bold" Margin="0,0,0,8" Foreground="#374151"/>
+
+                            <Grid Margin="0,0,0,20">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="F1" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="0" Grid.Column="1" Text="Help / Request" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="1" Grid.Column="0" Text="F2" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="1" Grid.Column="1" Text="Quick de-allocate" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="2" Grid.Column="0" Text="F3" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="2" Grid.Column="1" Text="Quick save (billed)" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="3" Grid.Column="0" Text="F5" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="3" Grid.Column="1" Text="Quick save (remarks)" FontSize="11" Foreground="#374151" Margin="0,2"/>
+
+                                <TextBlock Grid.Row="4" Grid.Column="0" Text="F11" FontSize="11" Foreground="#6B7280" Margin="0,2,15,2"/>
+                                <TextBlock Grid.Row="4" Grid.Column="1" Text="Quick logout" FontSize="11" Foreground="#374151" Margin="0,2"/>
+                            </Grid>
+
+                        </StackPanel>
+
+                    </Grid>
+                </StackPanel>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

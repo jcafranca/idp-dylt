@@ -1,0 +1,23 @@
+Time             : 13:20:18
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at DDCInteligence.Utilities.Services.MySQLServices.CheckConnection(Object databaseConnection) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Services\MySQLServices.cs:line 30
+Error Occurred In : CheckConnection
+
+
+Time             : 13:20:21
+Error            : One or more errors occurred.
+StackTrace       : at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at DDCInteligence.Models.LoginModel.<Login>b__23_0() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Models\LoginModel.cs:line 84
+Error Occurred In : Login
+
+

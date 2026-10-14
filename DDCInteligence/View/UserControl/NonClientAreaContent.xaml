@@ -1,0 +1,317 @@
+﻿<UserControl x:Class="DDCInteligence.View.UserControl.NonClientAreaContent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:DDCInteligence.DataTypes"
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             mc:Ignorable="d" d:DesignHeight="29" d:DesignWidth="600"
+             DataContext="{Binding Source={StaticResource Locator}, Path=NonClientArea}">
+    
+    <hc:Row>
+        <hc:Col Span="16">
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Stretch">
+                <Menu Background="Transparent">
+                    <MenuItem Header="File">
+                        <MenuItem x:Name="RequestButton"
+                                  Header="Request"
+                                  InputGestureText="F1"
+                                  IsEnabled="{Binding Source={StaticResource Locator}, Path=Main.IsRequesting, Converter={StaticResource ReverseBooleanConverter}}"
+                                  Command="{Binding RequestCommand}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/image-plus.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Cancel Request"
+                                  IsEnabled="{Binding ElementName=RequestButton, Path=IsEnabled,Converter={StaticResource ReverseBooleanConverter}}"
+                                  InputGestureText="F2" Command="{Binding DeAllocateCommand}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/image-off.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator />
+                        <MenuItem Header="Save" InputGestureText="F3" Command="{Binding SaveCommand}" CommandParameter="{x:Static local:StatusHelper.Billed}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/save.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Remarks" InputGestureText="F5" Command="{Binding SaveCommand}">
+                            <!--Visibility="{Binding Source={StaticResource Locator}, Path=Process.CurrentRole, Converter={StaticResource Role2VisibilityConverter}}"-->
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/notebook-pen.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Dimensions" InputGestureText="Ctrl + D" Command="{Binding DimensionCommand}" >
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/box.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="View Documents" InputGestureText="Ctrl + D" Command="{Binding ViewDocumentsCommand}"/>
+                        <Separator />
+                        <MenuItem Header="Refresh"
+                                  InputGestureText="Shift + Ctrl + R" />
+                        <MenuItem Header="Restart Application"
+                                  InputGestureText="F12" >
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/power.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator />
+                        <MenuItem InputGestureText="F11" Command="{Binding LogoutCommand}">
+                            <MenuItem.Header>
+                                <TextBlock Text="Logout" Foreground="{DynamicResource DangerBrush}"/>
+                            </MenuItem.Header>
+                        </MenuItem>
+                    </MenuItem>
+                    <MenuItem Header="Hot Keys" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <MenuItem Header="Add Item"  InputGestureText="Ctrl + I"  Command="{Binding Source={StaticResource Locator}, Path=Items.AddItemCommand}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/add.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Add Reference" InputGestureText="Ctrl + R"  Command="{Binding Source={StaticResource Locator}, Path=Reference.AddItemCommand}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/add_reference.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Add Accessorial"  InputGestureText="Alt + 4"  Command="{Binding Source={StaticResource Locator}, Path=Accessorials.AddItemCommand}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/add.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Insert Row" InputGestureText="Insert"  Command="{Binding Source={StaticResource Locator}, Path=Main.InsertCommand}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/insert.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Delete Row" InputGestureText="Delete"  Command="{Binding Source={StaticResource Locator}, Path=Main.DeleteCommand}" CommandParameter="{Binding Source={StaticResource Locator}, Path=Items.SelectedItem}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/delete.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator />
+                        <MenuItem Header="Goto Consignee Name" Command="{Binding GotoConsigneeCommand}" InputGestureText="Ctrl + J"/>
+                        <MenuItem Header="Goto Shipper Name" Command="{Binding GotoShipperCommand}" InputGestureText="Ctrl + K"/>
+                        <MenuItem Header="Goto BillTo Name" Command="{Binding GotoBillToCommand}" InputGestureText="Ctrl + L"/>
+                        <Separator />
+                        
+                        <MenuItem Header="Goto Pronumber Field"  Command="{Binding GotoProCommand}" InputGestureText="Ctrl + Alt + Z"/>
+                        <MenuItem Header="Goto Instruction Field"  Command="{Binding GotoSpecialInstructionCommand}" InputGestureText="Ctrl + Alt + X"/>
+                    </MenuItem>
+                    <MenuItem Header="Image Controls">
+                        <MenuItem Header="Set Image Page"
+                                  InputGestureText="Ctrl + S"
+                                  Command="{Binding Source={StaticResource Locator}, Path=ImageViewer.SetImageCommand}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/layers-2.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Next Image"
+                                  InputGestureText="Ctrl + Right"
+                                  Command="{Binding Source={StaticResource Locator}, Path=ImageViewer.NextPageCommand}"
+                                  CommandParameter="{x:Static local:PagingHelper.NEXT}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/arrow-right.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Prev Image"
+                                  InputGestureText="Ctrl + Left"
+                                  Command="{Binding Source={StaticResource Locator}, Path=ImageViewer.PreviousPageCommand}"
+                                  CommandParameter="{x:Static local:PagingHelper.PREVIOUS}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/arrow-left.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Zoom IN"
+                                  InputGestureText="Ctrl + Plus"
+                                  Command="{Binding Source={StaticResource Locator}, Path=ImageViewer.ZoomInCommand}"
+                                  CommandParameter="{x:Static local:ZoomingHelper.IN}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/zoom-in.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Zoom OUT" InputGestureText="Ctrl + Minus" 
+                                  Command="{Binding Source={StaticResource Locator},Path=ImageViewer.ZoomOutCommand}"
+                                  CommandParameter="{x:Static local:ZoomingHelper.OUT}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/zoom-out.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator />
+                        <MenuItem Header="Move Right" InputGestureText="Alt + Right" Command="{Binding Source={StaticResource Locator}, Path=ImageViewer.ArrowRightCommand}" CommandParameter="{x:Static local:ArrowsHelper.RIGHT}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/chevron-right.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Move Left" InputGestureText="Alt + Left" Command="{Binding Source={StaticResource Locator}, Path=ImageViewer.ArrowLeftCommand}" CommandParameter="{x:Static local:ArrowsHelper.LEFT}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/chevron-left.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Move Up" InputGestureText="Alt + Up" Command="{Binding Source={StaticResource Locator}, Path=ImageViewer.ArrowUpCommand}" CommandParameter="{x:Static local:ArrowsHelper.UP}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/chevron-up.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Move Down" InputGestureText="Alt + Down" Command="{Binding Source={StaticResource Locator}, Path=ImageViewer.ArrowDownCommand}" CommandParameter="{x:Static local:ArrowsHelper.DOWN}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/chevron-down.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <Separator />
+                        <MenuItem Header="Best Fit" InputGestureText="Ctrl + B" Command="{Binding Source={StaticResource Locator}, Path=ImageViewer.BestFitCommand}">
+                            <MenuItem.Icon>
+                                <Image Source="/Resources/Images/HotKeyIcons/minimize-2.png" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </MenuItem>
+                    <MenuItem Header="Tools">
+                        <MenuItem Header="Idle Break" Command="{Binding IdleBreakCommand}" InputGestureText="F7"/>
+                        <Separator />
+                        <MenuItem Header="Meal Break" Command="{Binding MealBreakCommand}" InputGestureText="F8"/>
+                        <MenuItem Header="Nature Break" Command="{Binding NatureBreakCommand}" InputGestureText="F9"/>
+                    </MenuItem>
+                    <MenuItem Header="Extensions" >
+                        <MenuItem Header="Change Password" Command="{Binding ChangePasswordCommand}" InputGestureText="" Visibility="Collapsed"/>
+                    </MenuItem>
+                </Menu>
+
+                <hc:Shield Subject="{Binding AppName}" Status="{Binding AppVersion}" Margin="4,0,0,0" Color="#1182c3" />
+            </StackPanel>
+        </hc:Col>
+        <hc:Col Span="8">
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Right">
+                <Button Command="{Binding AccountSettingCommand}"
+                        Cursor="Hand"
+                        Padding="0"
+                        Background="Transparent"
+                        BorderBrush="Transparent">
+                    <hc:UniformSpacingPanel Spacing="5">
+                        <hc:Gravatar Background="Transparent"
+                                     Id="{Binding Source={StaticResource Locator}, Path=Process.CurrentBiller.fullname, UpdateSourceTrigger=PropertyChanged, TargetNullValue=None, FallbackValue=None}"
+                                     Padding="3"
+                                     Height="20"
+                                     Width="20" />
+                        <TextBlock FontWeight="SemiBold"
+                                   Margin="0 2 0 0"
+                                   Typography.Capitals="Normal"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                                   Foreground="{DynamicResource PrimaryTextBrush}">
+                            <Run Text="Greetings," />
+                            <Run Text="{Binding Source={StaticResource Locator}, Path=Process.CurrentBiller.fullname, FallbackValue=None, TargetNullValue=None}" />
+                        </TextBlock>
+                    </hc:UniformSpacingPanel>
+                </Button>
+                <hc:Shield Margin="5 0 0 0" Subject="Role" Status="{Binding Source={StaticResource Locator}, Path=Process.CurrentRole, TargetNullValue=None}" Color="#1182c3"/>
+                <Button x:Name="ButtonConfig" BorderThickness="0"
+                        Background="Transparent"
+                        SnapsToDevicePixels="True" 
+                        Click="ButtonConfig_OnClick"
+                        Visibility="Collapsed">
+                    <Button.Content>
+                        <TextBlock FontSize="15"
+                                   Text="&#xf013;"
+                                   FontFamily="{StaticResource FontAwesome}" />
+                    </Button.Content>
+                </Button>
+                <Popup AllowsTransparency="True"
+                       PlacementTarget="{Binding ElementName=ButtonConfig}"
+                       HorizontalOffset="-28"
+                       x:Name="PopupConfig"
+                       VerticalOffset="6"
+                       StaysOpen="False">
+                    <Border Background="{DynamicResource SecondaryRegionBrush}"
+                            CornerRadius="4"
+                            Margin="16">
+                        <StackPanel Orientation="Horizontal">
+                            <hc:UniformSpacingPanel Orientation="Vertical"
+                                    Margin="10"
+                                    ChildWrapping="Wrap"
+                                    MaxHeight="134" HorizontalAlignment="Stretch" ItemHorizontalAlignment="Center">
+                                <Viewbox Height="50" Margin="0 -10">
+                                    <hc:AnimationPath VerticalAlignment="Center"
+                                                      Duration="0:0:6"
+                                                      Stretch="Uniform"
+                                                      Width="1024"
+                                                      Height="1024"
+                                                      StrokeThickness="15"
+                                                      Fill="transparent"
+                                                      Stroke="#0066CC">
+                                        <hc:AnimationPath.LayoutTransform>
+                                            <TransformGroup>
+                                                <TranslateTransform X="0" Y="256" />
+                                                <ScaleTransform ScaleX="0.1"  ScaleY="-0.1" />
+                                            </TransformGroup>
+                                        </hc:AnimationPath.LayoutTransform>
+                                        <hc:AnimationPath.Data>
+                                            <GeometryGroup>
+                                                <PathGeometry Figures="M1163 1988 c-49 -51 -98 -105 -108 -120 -9 -15 -21 -25 -26 -22 -12 7 -11 24 2 24 16 0 39 26 39 45 0 9 5 25 10 36 9 16 7 19 -10 19 -25 0 -27 17 -2 24 9 3 -1 3 -23 2 -22 -2 -53 -9 -69 -15 -18 -7 -32 -8 -35 -2 -14 22 -52 14 -105 -22 -28 -20 -28 -21 -8 -28 28 -11 44 -69 29 -109 -9 -24 -9 -33 4 -45 14 -14 23 -12 88 25 40 23 75 39 77 37 3 -3 -13 -33 -35 -67 -47 -72 -98 -198 -106 -261 -4 -33 -1 -26 14 26 36 132 108 269 136 259 8 -4 23 -3 32 2 15 6 13 8 -11 13 l-29 6 43 55 c23 30 77 90 119 133 41 42 73 77 70 77 -3 0 -46 -42 -96 -92z" />
+                                                <PathGeometry Figures="M1451 1990 c82 -83 130 -144 99 -125 -7 4 -16 2 -20 -5 -7 -12 -20 -15 -65 -19 -5 -1 -23 -12 -39 -26 -35 -30 -33 -30 -45 -6 -9 16 -8 18 8 14 31 -8 35 16 4 27 -15 6 -36 15 -45 20 -33 19 -54 10 -102 -41 -33 -35 -46 -56 -41 -67 6 -16 7 -16 19 1 12 16 14 15 20 -14 6 -30 26 -32 26 -2 0 19 32 73 43 73 5 0 7 -8 5 -17 -2 -10 3 -23 10 -29 12 -9 9 -17 -17 -47 -29 -32 -35 -35 -54 -24 -12 7 -25 17 -29 22 -5 6 -8 3 -8 -7 0 -25 -37 -43 -56 -27 -8 6 -14 18 -14 25 0 8 -4 14 -10 14 -13 0 -13 -13 2 -28 8 -8 8 -15 -1 -26 -10 -11 -10 -19 0 -34 18 -29 5 -54 -26 -46 -23 6 -25 4 -25 -30 0 -29 4 -36 19 -36 29 0 51 11 51 25 0 18 34 45 58 45 11 0 27 -8 34 -18 7 -10 20 -22 28 -27 12 -7 11 -3 -3 18 -27 42 -1 32 28 -10 15 -23 25 -31 25 -21 0 9 8 23 19 30 10 7 19 15 19 18 6 39 46 48 81 16 22 -20 18 -45 -4 -26 -16 14 -69 5 -84 -14 -8 -9 -7 -18 4 -32 8 -11 15 -14 15 -6 0 6 11 12 25 12 23 0 25 -3 19 -27 -11 -48 -26 -57 -70 -43 -28 10 -39 10 -42 1 -6 -19 -29 -12 -55 18 -23 27 -29 30 -73 25 -72 -6 -78 -10 -125 -72 -38 -50 -43 -64 -46 -117 -3 -57 -1 -64 29 -99 27 -31 41 -39 73 -41 22 -1 45 2 52 7 22 17 68 -13 71 -47 1 -17 10 -54 19 -82 13 -44 14 -58 3 -83 -10 -23 -10 -34 -1 -43 6 -6 11 -30 11 -53 0 -23 7 -58 16 -79 15 -36 17 -37 54 -32 42 5 89 47 90 80 0 9 5 17 10 17 6 0 10 11 10 24 0 13 10 36 21 51 17 21 22 40 21 85 -1 45 3 62 19 76 10 9 19 21 19 27 0 5 11 22 25 39 32 38 32 54 -3 61 -31 6 -92 82 -92 116 0 11 -4 23 -10 26 -5 3 -10 14 -10 23 0 27 49 -32 56 -68 9 -45 27 -54 63 -35 17 8 31 20 31 25 0 6 6 10 13 10 6 0 20 14 29 30 18 32 15 35 -33 31 -19 -2 -52 44 -46 62 3 7 10 0 16 -16 8 -22 16 -27 38 -25 16 1 38 -4 51 -11 16 -8 27 -9 35 -2 9 7 19 2 36 -15 23 -24 23 -29 17 -119 -4 -52 -16 -127 -27 -167 -41 -147 -165 -369 -290 -519 -76 -91 -90 -113 -30 -50 114 121 274 384 312 511 15 48 29 36 29 -25 1 -84 48 -238 101 -332 35 -61 117 -173 127 -173 13 0 160 115 216 168 44 43 63 54 92 55 31 2 42 10 86 65 45 56 49 65 43 100 -5 30 1 52 29 112 19 42 37 89 41 105 3 17 -4 6 -16 -24 l-22 -54 -39 42 c-32 35 -43 42 -64 37 -17 -5 -26 -2 -30 9 -3 8 -10 12 -15 10 -5 -3 12 -27 37 -52 33 -34 48 -43 56 -35 8 8 15 5 28 -11 17 -21 17 -23 -1 -59 -21 -41 -34 -51 -24 -18 4 11 2 20 -4 20 -6 0 -11 8 -11 18 -1 9 -7 3 -15 -16 -19 -44 -51 -41 -49 5 2 40 -20 50 -35 17 -8 -19 -16 -24 -31 -19 -14 4 -28 -3 -50 -25 -16 -17 -30 -27 -30 -24 0 4 -11 -3 -24 -15 -14 -13 -29 -20 -35 -17 -15 10 -20 -6 -26 -78 -6 -78 1 -81 80 -41 53 26 69 24 59 -7 -6 -19 -5 -19 20 -2 54 35 37 2 -36 -69 -69 -69 -210 -177 -230 -177 -13 0 -98 120 -133 190 -75 148 -102 307 -83 480 6 58 15 109 20 115 4 5 8 0 8 -13 0 -19 16 -53 38 -82 7 -9 22 26 22 53 0 15 8 35 18 45 10 10 21 26 25 35 18 47 82 -24 114 -126 12 -40 39 -77 56 -77 5 0 -3 20 -17 44 -14 25 -26 52 -26 62 0 14 6 12 30 -11 25 -24 33 -27 40 -15 10 15 2 69 -11 85 -20 21 -8 35 31 35 34 0 42 4 50 25 8 21 5 33 -15 65 -14 22 -25 44 -25 50 0 5 -7 10 -16 10 -14 0 -14 3 -4 15 19 23 32 18 64 -23 16 -20 25 -28 21 -17 -4 11 -12 32 -18 46 -8 22 -7 30 6 44 20 19 20 20 8 43 -5 9 -14 30 -20 45 -7 18 -17 27 -28 25 -20 -3 -27 20 -13 42 8 12 13 13 30 2 18 -11 22 -9 38 17 22 37 45 27 45 -19 0 -23 8 -36 29 -51 27 -20 28 -20 28 -1 0 11 -7 25 -15 32 -21 18 -19 40 4 40 22 0 38 19 25 29 -5 3 -16 15 -24 26 -13 18 -13 19 0 9 21 -15 50 -25 50 -16 0 18 -70 35 -154 37 -79 2 -176 20 -176 32 0 3 27 47 61 99 l61 94 27 -19 c46 -33 184 -183 224 -243 53 -80 93 -170 116 -258 11 -41 20 -63 20 -49 1 14 -10 57 -23 95 -59 173 -156 314 -307 445 l-57 49 -67 -105 c-66 -103 -68 -105 -105 -105 -22 0 -42 5 -45 10 -3 6 -30 10 -59 10 -52 0 -52 0 -48 28 3 25 1 27 -30 26 -18 -1 -40 -4 -48 -7 -8 -3 -24 -7 -35 -9 -12 -2 -21 -12 -23 -26 -2 -13 -10 -22 -21 -22 -14 0 -17 -6 -13 -26 3 -19 1 -25 -7 -20 -6 4 -11 12 -11 17 0 11 -220 239 -230 239 -4 0 33 -40 81 -90z m204 -140 c3 -5 -1 -10 -10 -10 -9 0 -13 5 -10 10 3 6 8 10 10 10 2 0 7 -4 10 -10z" />
+                                                <PathGeometry Figures="M397 1958 c-108 -109 -113 -113 -156 -114 -25 0 -47 -6 -49 -12 -2 -7 -12 -12 -22 -12 -11 0 -24 -9 -30 -20 -6 -11 -17 -20 -25 -20 -20 0 -30 -21 -14 -31 11 -7 9 -10 -9 -15 -12 -4 -22 -10 -22 -15 0 -10 10 -7 74 26 46 23 86 32 86 19 0 -3 -16 -38 -35 -78 -41 -86 -76 -212 -74 -270 1 -34 3 -30 10 22 11 85 34 164 71 236 31 61 43 76 64 76 21 0 -27 -141 -60 -180 -20 -23 -25 -68 -10 -81 8 -7 12 -25 10 -49 -2 -20 0 -44 5 -51 6 -10 9 -6 9 13 0 53 12 63 26 21 8 -21 14 -47 14 -58 0 -33 28 -65 58 -65 39 0 131 -56 142 -86 7 -18 6 -33 -4 -52 -24 -47 -28 -98 -11 -116 9 -9 21 -16 26 -16 5 0 9 -9 9 -20 0 -12 16 -31 39 -48 33 -23 38 -32 39 -67 1 -110 35 -243 74 -288 35 -41 48 -25 41 48 -5 50 -4 54 32 91 21 21 42 38 47 37 7 -3 10 12 12 63 1 12 12 30 25 41 13 11 24 31 25 48 1 17 7 39 12 50 6 11 14 34 17 52 5 26 3 32 -17 37 -12 3 -39 17 -60 31 -30 20 -41 23 -52 14 -8 -6 -15 -8 -15 -3 -1 5 -2 14 -4 19 -1 6 -3 18 -3 27 -1 9 -12 18 -23 20 -18 2 -31 16 -45 46 -1 2 -24 9 -52 16 -33 9 -55 10 -67 4 -20 -12 -70 6 -60 22 3 6 -5 10 -18 10 -30 0 -41 24 -26 53 12 21 11 21 -8 5 -28 -25 -39 -22 -54 14 -10 24 -10 33 -1 36 7 2 12 12 12 22 0 21 17 28 73 32 38 2 57 -11 57 -40 0 -8 6 -12 13 -9 6 2 11 14 9 26 -4 26 13 50 45 62 13 5 23 15 23 23 0 16 89 76 113 76 10 0 15 8 14 20 -1 14 -6 18 -19 14 -10 -3 -18 -3 -18 0 0 2 15 10 34 16 31 10 37 9 57 -11 25 -25 73 -151 101 -269 12 -49 23 -144 28 -225 4 -77 8 -113 9 -80 3 67 0 70 55 -67 56 -142 217 -390 307 -473 17 -16 0 11 -40 60 -200 248 -302 461 -332 694 -11 85 -46 209 -94 332 -18 44 -22 65 -14 70 8 5 8 8 -1 11 -6 2 -13 16 -13 31 -1 18 -8 27 -19 27 -19 0 -63 74 -53 90 3 5 -3 14 -14 19 -14 8 -20 8 -23 -1 -3 -7 -7 -5 -11 6 -4 10 -3 15 3 11 6 -3 10 3 10 13 0 11 -7 23 -16 26 -9 4 -14 13 -10 21 3 9 0 15 -8 15 -21 0 -25 23 -7 40 9 8 13 12 8 9 -18 -13 -44 4 -71 47 -15 24 -30 44 -33 44 -2 0 -55 -51 -116 -112z m147 52 c15 -23 24 -46 20 -52 -4 -6 -3 -8 3 -5 14 9 55 -60 57 -96 3 -39 -10 -45 -87 -38 -57 6 -70 4 -84 -11 -9 -10 -23 -18 -32 -18 -10 0 -6 6 12 18 l27 19 -26 13 c-21 12 -29 12 -46 1 -17 -10 -25 -10 -44 0 -13 7 -24 15 -24 19 0 7 185 190 192 190 3 0 17 -18 32 -40z m133 -220 c14 -21 8 -50 -11 -50 -6 -1 -20 -20 -31 -42 -11 -23 -25 -43 -30 -45 -6 -1 -20 13 -33 33 -21 33 -22 37 -8 53 9 10 16 23 16 29 0 7 7 12 15 12 8 0 15 4 15 9 0 9 19 17 45 20 6 0 16 -8 22 -19z m-127 -175 c23 -24 23 -25 5 -45 -24 -26 -34 -25 -28 3 4 22 4 22 -18 -3 l-22 -25 6 33 c4 20 3 32 -4 32 -8 0 -7 5 1 15 18 21 33 19 60 -10z" />
+                                                <PathGeometry Figures="M504 1919 c-4 -8 0 -9 15 -4 12 4 21 2 21 -4 0 -6 7 -11 16 -11 14 0 14 3 4 15 -15 18 -46 20 -56 4z" />
+                                                <PathGeometry Figures="M470 1887 c0 -11 6 -13 22 -9 17 4 20 2 15 -12 -10 -25 18 -31 49 -11 29 19 29 22 -6 28 -14 3 -37 8 -52 12 -22 6 -28 4 -28 -8z" />
+                                                <PathGeometry Figures="M783 1992 c-34 -3 -40 -11 -22 -29 7 -7 1 -16 -23 -31 -18 -12 -30 -22 -26 -22 17 0 118 51 125 64 4 7 15 16 23 19 15 6 -11 5 -77 -1z" />
+                                                <PathGeometry Figures="M676 1883 c-9 -10 4 -23 24 -23 25 0 33 -15 20 -39 -14 -27 -3 -50 21 -44 10 3 19 9 19 14 0 5 7 9 15 9 21 0 19 15 -7 43 -23 25 -81 50 -92 40z" />
+                                                <PathGeometry Figures="M1095 1691 c-3 -5 -1 -12 4 -15 5 -3 11 1 15 9 6 16 -9 21 -19 6z" />
+                                                <PathGeometry Figures="M2171 1655 c0 -5 6 -19 14 -29 8 -11 15 -15 15 -10 0 6 -7 19 -15 30 -8 10 -14 15 -14 9z" />
+                                                <PathGeometry Figures="M2214 1585 c-4 -9 -2 -21 5 -28 12 -12 15 -57 3 -57 -4 0 -13 -9 -20 -20 -11 -18 -11 -19 5 -11 10 5 26 12 36 15 14 5 16 10 8 25 -6 10 -8 21 -4 24 3 4 0 13 -6 21 -7 8 -10 20 -7 25 4 5 2 12 -4 16 -6 3 -13 -1 -16 -10z" />
+                                                <PathGeometry Figures="M873 1425 c0 -22 2 -30 4 -17 2 12 2 30 0 40 -3 9 -5 -1 -4 -23z" />
+                                                <PathGeometry Figures="M2502 1360 c-1 -52 -4 -113 -7 -135 l-5 -40 10 40 c6 22 9 83 7 135 l-3 95 -2 -95z" />
+                                                <PathGeometry Figures="M111 1354 c0 -11 3 -14 6 -6 3 7 2 16 -1 19 -3 4 -6 -2 -5 -13z" />
+                                                <PathGeometry Figures="M455 1360 c3 -5 11 -10 16 -10 6 0 7 5 4 10 -3 6 -11 10 -16 10 -6 0 -7 -4 -4 -10z" />
+                                                <PathGeometry Figures="M490 1350 c0 -5 5 -10 11 -10 5 0 7 5 4 10 -3 6 -8 10 -11 10 -2 0 -4 -4 -4 -10z" />
+                                                <PathGeometry Figures="M530 1326 c0 -10 9 -16 21 -16 24 0 21 23 -4 28 -10 2 -17 -3 -17 -12z" />
+                                                <PathGeometry Figures="M2165 1321 c-7 -24 -1 -37 26 -51 19 -11 19 -10 4 26 -20 48 -22 50 -30 25z" />
+                                                <PathGeometry Figures="M121 1279 c-1 -58 39 -200 80 -282 50 -99 122 -197 211 -285 83 -82 236 -204 250 -199 28 9 155 214 173 277 4 14 -13 -14 -38 -62 -47 -93 -121 -198 -139 -198 -18 0 -131 85 -210 159 -177 165 -291 371 -317 568 -8 61 -9 63 -10 22z" />
+                                                <PathGeometry Figures="M2125 1175 c-39 -39 -37 -75 6 -75 16 0 30 6 30 13 5 44 5 88 0 90 -3 1 -20 -11 -36 -28z" />
+                                                <PathGeometry Figures="M2481 1164 c0 -11 3 -14 6 -6 3 7 2 16 -1 19 -3 4 -6 -2 -5 -13z" />
+                                                <PathGeometry Figures="M1990 1167 c0 -15 53 -96 60 -92 13 8 -15 68 -39 84 -12 7 -21 11 -21 8z" />
+                                                <PathGeometry Figures="M2186 1118 c-10 -23 -4 -49 10 -40 6 4 7 18 4 32 -6 21 -8 22 -14 8z" />
+                                                <PathGeometry Figures="M1557 996 c-4 -9 -13 -16 -20 -16 -9 0 -17 -15 -21 -37 -9 -57 -8 -65 11 -61 19 4 58 107 44 121 -5 5 -11 2 -14 -7z" />
+                                                <PathGeometry Figures="M872 955 c0 -16 2 -22 5 -12 2 9 2 23 0 30 -3 6 -5 -1 -5 -18z" />
+                                                <PathGeometry Figures="M856 889 c-3 -18 -4 -34 -2 -36 2 -3 7 10 11 27 4 17 5 34 2 36 -2 3 -7 -10 -11 -27z" />
+                                                <PathGeometry Figures="M2512 758 c-22 -22 -15 -37 13 -25 24 12 29 27 9 34 -5 2 -15 -2 -22 -9z" />
+                                                <PathGeometry Figures="M2456 715 c-3 -8 -12 -15 -19 -15 -8 0 -22 -9 -32 -20 -21 -24 -14 -25 24 -6 35 18 55 42 43 50 -6 3 -12 -1 -16 -9z" />
+                                            </GeometryGroup>
+                                        </hc:AnimationPath.Data>
+                                    </hc:AnimationPath>
+                                </Viewbox>
+                                <Image Width="100" Source="/Resources/Images/sefl_logo.png" />
+                            </hc:UniformSpacingPanel>
+                            <hc:Divider LineStrokeDashArray="2,2" Orientation="Vertical" Margin="0,20" LineStrokeThickness="2" />
+                            <StackPanel Button.Click="ButtonSkins_OnClick" Margin="10,10,10,10">
+                                <Button Tag="{x:Static hc:SkinType.Default}" Style="{StaticResource ButtonCustom}">
+                                    <Border Background="White"
+                                            Width="32"
+                                            Height="21"
+                                            CornerRadius="2"
+                                            BorderThickness="1"
+                                            BorderBrush="{DynamicResource BorderBrush}" />
+                                </Button>
+                                <Button Tag="{x:Static hc:SkinType.Dark}" Style="{StaticResource ButtonCustom}" Margin="0,10,0,0">
+                                    <Border Background="Black"
+                                            Width="32"
+                                            Height="21"
+                                            CornerRadius="2"
+                                            BorderThickness="1"
+                                            BorderBrush="{DynamicResource BorderBrush}" />
+                                </Button>
+                                <Button Tag="{x:Static hc:SkinType.Violet}" Style="{StaticResource ButtonCustom}" Margin="0,10,0,0">
+                                    <Border Background="DarkViolet"
+                                            Width="32"
+                                            Height="21"
+                                            CornerRadius="2"
+                                            BorderThickness="1"
+                                            BorderBrush="{DynamicResource BorderBrush}" />
+                                </Button>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </Popup>
+            </StackPanel>
+        </hc:Col>
+    </hc:Row>
+</UserControl>

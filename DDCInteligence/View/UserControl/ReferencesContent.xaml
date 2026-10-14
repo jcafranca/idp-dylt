@@ -1,0 +1,63 @@
+﻿<UserControl
+    x:Class="DDCInteligence.View.UserControl.ReferencesContent"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:behavior="clr-namespace:DDCInteligence.Utilities.Behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:hc="https://handyorg.github.io/handycontrol"
+    xmlns:loc="clr-namespace:DDCInteligence.Utilities.Services"
+    xmlns:local="clr-namespace:DDCInteligence.View.UserControl"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    DataContext="{Binding Source={StaticResource Locator}, Path=BillingInfo}"
+    mc:Ignorable="d">
+
+    <Grid Margin="0,0,10,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Label
+                HorizontalAlignment="Center"
+                VerticalAlignment="Top"
+                Background="Transparent"
+                BorderThickness="0"
+                Content="Notes"
+                FontWeight="Bold"
+                Foreground="#268b9c" />
+            <TextBox
+                x:Name="TextBoxNotes"
+                Grid.Column="1"
+                hc:InfoElement.Necessary="False"
+                AcceptsReturn="True"
+                CharacterCasing="Upper"
+                FontWeight="Bold"
+                MaxLines="100"
+                Style="{StaticResource CustomTextBoxExtend}"
+                Text="{Binding Notes, UpdateSourceTrigger=PropertyChanged}"
+                TextWrapping="Wrap"
+                Validation.ErrorTemplate="{x:Null}">
+                <hc:Interaction.Behaviors>
+                    <behavior:FocusBehavior />
+                    <behavior:PreviewKeydownBehevior />
+                </hc:Interaction.Behaviors>
+            </TextBox>
+            <TextBlock
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="0,2,0,0"
+                HorizontalAlignment="Right"
+                FontStyle="Oblique"
+                FontWeight="SemiBold"
+                Foreground="{StaticResource SecondaryTextBrush}"
+                Text="Use Shift + Enter to move to the next field." />
+        </Grid>
+    </Grid>
+</UserControl>

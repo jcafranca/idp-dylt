@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="DDCInteligence.View.UserControl.QCDetailsContent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DDCInteligence.View.UserControl"
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             xmlns:ae="http://icsharpcode.net/sharpdevelop/avalonedit"
+             mc:Ignorable="d">
+
+
+    <Border Style="{StaticResource BorderClip}"
+            CornerRadius="0 10 10 0"
+            Background="{DynamicResource RegionBrush}"
+            Name="BorderCode" ScrollViewer.HorizontalScrollBarVisibility="Visible"/>
+</UserControl>

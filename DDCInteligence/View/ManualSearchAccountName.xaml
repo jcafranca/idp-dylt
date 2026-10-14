@@ -1,0 +1,220 @@
+﻿<Window
+    x:Class="DDCInteligence.View.ManualSearchAccountName"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:b="clr-namespace:DDCInteligence.Utilities.Behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:hc="https://handyorg.github.io/handycontrol"
+    xmlns:local="clr-namespace:DDCInteligence.View"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Account Selection List"
+    Width="700"
+    Height="450"
+    Background="{StaticResource RegionBrush}"
+    FocusManager.FocusedElement="{Binding ElementName=dgvSelectionList}"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterOwner"
+    mc:Ignorable="d">
+
+    <Window.Resources>
+        <Style x:Name="LabelStyle" TargetType="{x:Type TextBlock}">
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Foreground" Value="{DynamicResource PrimaryTextBrush}" />
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="10">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <TextBlock Text="Account List" />
+            <TextBlock x:Name="lblDate" Text="Date: 00/00/00" />
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" HorizontalAlignment="Stretch">
+            <TextBlock HorizontalAlignment="Center" Text="DYLT" />
+            <TextBlock HorizontalAlignment="Center" Text="Account Inquiry" />
+        </StackPanel>
+
+        <StackPanel Grid.Column="2" HorizontalAlignment="Stretch">
+            <TextBlock
+                x:Name="lblDatagridCount"
+                HorizontalAlignment="Right"
+                Text="Selected 000000" />
+            <TextBlock
+                x:Name="lblTime"
+                HorizontalAlignment="Right"
+                Text="Time 00:00 AM" />
+        </StackPanel>
+
+        <hc:UniformSpacingPanel
+            Grid.Row="1"
+            Grid.ColumnSpan="3"
+            Margin="0,15,0,0"
+            HorizontalAlignment="Center"
+            Orientation="Horizontal"
+            Spacing="10">
+            <TextBox
+                x:Name="TextBoxSearchName"
+                Width="300"
+                hc:InfoElement.Title="Name"
+                hc:InfoElement.TitlePlacement="Left"
+                CharacterCasing="Upper"
+                FontWeight="Bold"
+                Style="{StaticResource CustomTextBoxExtend}">
+                <hc:Interaction.Behaviors>
+                    <b:FocusBehavior />
+                    <b:PreviewKeydownBehevior />
+                </hc:Interaction.Behaviors>
+            </TextBox>
+
+            <TextBox
+                x:Name="TextBoxSearchAddress"
+                Width="300"
+                hc:InfoElement.Title="Address"
+                hc:InfoElement.TitlePlacement="Left"
+                CharacterCasing="Upper"
+                FontWeight="Bold"
+                Style="{StaticResource CustomTextBoxExtend}">
+                <hc:Interaction.Behaviors>
+                    <b:FocusBehavior />
+                    <b:PreviewKeydownBehevior />
+                </hc:Interaction.Behaviors>
+            </TextBox>
+
+        </hc:UniformSpacingPanel>
+
+        <Grid
+            Grid.Row="2"
+            Grid.ColumnSpan="3"
+            Margin="0,15">
+            <!--  DataGrid bound to an ItemsSource dependency property  -->
+            <DataGrid
+                x:Name="dgvSelectionList"
+                MinHeight="80"
+                hc:DataGridAttach.CanUnselectAllWithBlankArea="True"
+                AutoGenerateColumns="False"
+                Background="{DynamicResource RegionBrush}"
+                BorderThickness="0"
+                CanUserAddRows="False"
+                CanUserReorderColumns="False"
+                CanUserResizeRows="False"
+                CanUserSortColumns="False"
+                FontWeight="SemiBold"
+                Foreground="{DynamicResource PrimaryTextBrush}"
+                GridLinesVisibility="None"
+                HeadersVisibility="Column"
+                HorizontalScrollBarVisibility="Auto"
+                SelectionMode="Single"
+                Style="{DynamicResource DataGrid.Small}"
+                Validation.ErrorTemplate="{x:Null}">
+                <DataGrid.Columns>
+                    <!--  Name column  -->
+                    <DataGridTemplateColumn
+                        Width="*"
+                        MinWidth="200"
+                        Header="NAME"
+                        IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <hc:HighlightTextBlock
+                                        FontWeight="SemiBold"
+                                        QueriesText="{Binding ElementName=TextBoxCity, Path=Text}"
+                                        SourceText="{Binding name}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <!--  Address column  -->
+                    <DataGridTextColumn
+                        Width="Auto"
+                        MinWidth="200"
+                        Binding="{Binding address1, UpdateSourceTrigger=PropertyChanged}"
+                        FontWeight="SemiBold"
+                        Header="ADDRESS"
+                        IsReadOnly="True" />
+                    <DataGridTextColumn
+                        Width="Auto"
+                        MinWidth="200"
+                        Binding="{Binding address2, UpdateSourceTrigger=PropertyChanged}"
+                        FontWeight="SemiBold"
+                        Header="ADDRESS"
+                        IsReadOnly="True" />
+                    <!--  City column  -->
+                    <DataGridTextColumn
+                        Width="Auto"
+                        MinWidth="60"
+                        Binding="{Binding city, UpdateSourceTrigger=PropertyChanged}"
+                        FontWeight="SemiBold"
+                        Header="CITY"
+                        IsReadOnly="True" />
+                    <!--  State column  -->
+                    <DataGridTextColumn
+                        Width="Auto"
+                        MinWidth="30"
+                        Binding="{Binding provine, UpdateSourceTrigger=PropertyChanged}"
+                        FontWeight="SemiBold"
+                        Header="ST"
+                        IsReadOnly="True" />
+                    <!--  Zip column  -->
+                    <DataGridTextColumn
+                        Width="Auto"
+                        MinWidth="50"
+                        Binding="{Binding postalcode, UpdateSourceTrigger=PropertyChanged}"
+                        FontWeight="SemiBold"
+                        Header="ZIP"
+                        IsReadOnly="True" />
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!--  Loader - Shows ONLY when loading  -->
+            <StackPanel
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Visibility="{Binding IsLoading, RelativeSource={RelativeSource AncestorType=Window}, Converter={StaticResource Boolean2VisibilityConverter}}">
+                <hc:LoadingCircle />
+                <TextBlock Margin="0,2,0,0" Text="Fetching data, please wait..." />
+            </StackPanel>
+
+            <!--  Fallback text if no data exists  -->
+            <TextBlock
+                Margin="0,10,0,0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontWeight="SemiBold">
+                <TextBlock.Visibility>
+                    <MultiBinding Converter="{StaticResource LoadingAndItemsCountToVisibilityConverter}">
+                        <Binding Path="IsLoading" RelativeSource="{RelativeSource AncestorType=Window}" />
+                        <Binding ElementName="dgvSelectionList" Path="Items.Count" />
+                    </MultiBinding>
+                </TextBlock.Visibility>
+                <Run
+                    FontFamily="{StaticResource FontAwesome}"
+                    Foreground="{DynamicResource PrimaryBrush}"
+                    Text="&#xf1c0;" />
+                <Run
+                    BaselineAlignment="Center"
+                    Foreground="{DynamicResource SecondaryTextBrush}"
+                    Text="No data found" />
+            </TextBlock>
+        </Grid>
+
+        <TextBlock
+            Grid.Row="3"
+            Grid.ColumnSpan="3"
+            Text="[ESC = Close] [Enter = Select]" />
+    </Grid>
+</Window>

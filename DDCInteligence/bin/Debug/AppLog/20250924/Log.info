@@ -1,0 +1,27 @@
+Time             : 16:35:12
+Error            : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace       : at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.Collection`1.System.Collections.IList.get_Item(Int32 index)
+   at System.Windows.Data.ListCollectionView.InternalItemAt(Int32 index)
+   at System.Windows.Data.ListCollectionView.GetItemAt(Int32 index)
+   at System.Windows.Controls.ItemCollection.GetItemAt(Int32 index)
+   at System.Windows.Controls.ItemCollection.get_Item(Int32 index)
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.MoveFocusCell(DataGridContext context, DataGrid dataGrid, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 534
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.HandleItemsDataGrid(DataGrid dataGrid, KeyEventArgs e, DataGridContext context) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 221
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.HandleDataGridKeyDown(DataGrid dataGrid, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 141
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.AssociatedObject_PreviewKeyDown(Object sender, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 85
+Error Occurred In : AssociatedObject_PreviewKeyDown
+
+
+Time             : 18:31:43
+Error            : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace       : at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DotNetCS.ImageViewer.PictureBox.SetRubberBand(String value)
+   at DDCInteligence.View.UserControl.ItemsContent.DataGridCell_PreviewMouseLeftButtonDown(Object sender, MouseButtonEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\View\UserControl\ItemsContent.xaml.cs:line 108
+Error Occurred In : DataGridCell_PreviewMouseLeftButtonDown
+
+

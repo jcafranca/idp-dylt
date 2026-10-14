@@ -1,0 +1,74 @@
+﻿<UserControl
+    x:Class="DDCInteligence.View.UserControl.ImageViewerContent"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:hc="https://handyorg.github.io/handycontrol"
+    xmlns:local="clr-namespace:DDCInteligence.View.UserControl"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    DataContext="{Binding Source={StaticResource Locator}, Path=ImageViewer}"
+    FontFamily="Consolas"
+    mc:Ignorable="d">
+
+    <hc:SimplePanel Background="{StaticResource RegionBrush}">
+        <Border
+            x:Name="BorderRootEffect"
+            Effect="{StaticResource EffectShadow4}"
+            Visibility="Collapsed" />
+        <Border x:Name="BorderRoot" Style="{StaticResource BorderClip}">
+            <Grid
+                x:Name="GridMain"
+                MinWidth="200"
+                MinHeight="300">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Border
+                    x:Name="BorderEffect"
+                    Grid.RowSpan="2"
+                    Background="#19233d"
+                    Effect="{StaticResource EffectShadow4}" />
+                <Border
+                    x:Name="BorderTitle"
+                    Grid.Row="0"
+                    Height="25"
+                    BorderBrush="{DynamicResource SecondaryBorderBrush}"
+                    BorderThickness="0,0,0,3"
+                    Style="{StaticResource BorderClip}">
+                    <TextBlock
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="12"
+                        FontWeight="Bold"
+                        TextWrapping="Wrap">
+                        <Hyperlink
+                            Name="Filename"
+                            Click="Hyperlink_Click"
+                            Cursor="Hand"
+                            Foreground="#ffd500"
+                            TextDecorations="None">
+                            <Run Text="{Binding Source={StaticResource Locator}, Path=Process.CurrentDocument.filename}" />
+                        </Hyperlink>
+                    </TextBlock>
+
+                </Border>
+
+                <Border
+                    Grid.Row="1"
+                    Margin="0"
+                    Background="{StaticResource RegionBrush}"
+                    ClipToBounds="True">
+                    <WindowsFormsHost
+                        x:Name="ImageViewer"
+                        ClipToBounds="True"
+                        Visibility="{Binding Source={StaticResource Locator}, Path=Process.CurrentState, Converter={StaticResource State2ReverseVisibilityConverter}}" />
+                </Border>
+            </Grid>
+        </Border>
+    </hc:SimplePanel>
+</UserControl>

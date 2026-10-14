@@ -1,0 +1,50 @@
+Time             : 11:27:09
+Error            : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace       : at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DotNetCS.ImageViewer.PictureBox.SetRubberBand(String value)
+   at DDCInteligence.View.UserControl.ItemsContent.DataGridCell_PreviewMouseLeftButtonDown(Object sender, MouseButtonEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\View\UserControl\ItemsContent.xaml.cs:line 108
+Error Occurred In : DataGridCell_PreviewMouseLeftButtonDown
+
+
+Time             : 11:40:59
+Error            : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace       : at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DotNetCS.ImageViewer.PictureBox.SetRubberBand(String value)
+   at DDCInteligence.View.UserControl.ItemsContent.DataGridCell_PreviewMouseLeftButtonDown(Object sender, MouseButtonEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\View\UserControl\ItemsContent.xaml.cs:line 108
+Error Occurred In : DataGridCell_PreviewMouseLeftButtonDown
+
+
+Time             : 12:07:25
+Error            : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace       : at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DotNetCS.ImageViewer.PictureBox.SetRubberBand(String value)
+   at DDCInteligence.View.UserControl.ItemsContent.DataGridCell_PreviewMouseLeftButtonDown(Object sender, MouseButtonEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\View\UserControl\ItemsContent.xaml.cs:line 108
+Error Occurred In : DataGridCell_PreviewMouseLeftButtonDown
+
+
+Time             : 12:07:27
+Error            : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace       : at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DotNetCS.ImageViewer.PictureBox.SetRubberBand(String value)
+   at DDCInteligence.View.UserControl.ItemsContent.DataGridCell_PreviewMouseLeftButtonDown(Object sender, MouseButtonEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\View\UserControl\ItemsContent.xaml.cs:line 108
+Error Occurred In : DataGridCell_PreviewMouseLeftButtonDown
+
+
+Time             : 12:07:29
+Error            : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace       : at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DotNetCS.ImageViewer.PictureBox.SetRubberBand(String value)
+   at DDCInteligence.View.UserControl.ItemsContent.DataGridCell_PreviewMouseLeftButtonDown(Object sender, MouseButtonEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\View\UserControl\ItemsContent.xaml.cs:line 108
+Error Occurred In : DataGridCell_PreviewMouseLeftButtonDown
+
+

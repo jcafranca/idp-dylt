@@ -1,0 +1,179 @@
+Time             : 14:18:16
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at DDCInteligence.Utilities.Services.RubberBandServices.<>c__DisplayClass22_0.<GetZipCode>b__0(String pattern) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Services\RubberBandServices.cs:line 557
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DDCInteligence.Utilities.Services.RubberBandServices.GetZipCode(String str) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Services\RubberBandServices.cs:line 553
+   at DDCInteligence.Utilities.Services.RubberBandServices.GetCityStateZip(String sInput) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Services\RubberBandServices.cs:line 403
+Error Occurred In : GetCityStateZip
+
+
+Time             : 14:40:08
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>b__91_0(Document d, BillingInfo dt, DocTypeInfo dct, ProcessInfo p, BillerInfo u) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 315
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__3(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TFourth,TFifth,TReturn](IDbConnection cnn, String sql, Func`6 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__91.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 311
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:40:09
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>b__91_0(Document d, BillingInfo dt, DocTypeInfo dct, ProcessInfo p, BillerInfo u) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 315
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__3(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TFourth,TFifth,TReturn](IDbConnection cnn, String sql, Func`6 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__91.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 311
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:40:10
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>b__91_0(Document d, BillingInfo dt, DocTypeInfo dct, ProcessInfo p, BillerInfo u) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 315
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__3(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TFourth,TFifth,TReturn](IDbConnection cnn, String sql, Func`6 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__91.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 311
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:40:11
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>b__91_0(Document d, BillingInfo dt, DocTypeInfo dct, ProcessInfo p, BillerInfo u) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 315
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__3(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TFourth,TFifth,TReturn](IDbConnection cnn, String sql, Func`6 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__91.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 311
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:40:12
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>b__91_0(Document d, BillingInfo dt, DocTypeInfo dct, ProcessInfo p, BillerInfo u) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 315
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__3(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TFourth,TFifth,TReturn](IDbConnection cnn, String sql, Func`6 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__91.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 311
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:40:13
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>b__91_0(Document d, BillingInfo dt, DocTypeInfo dct, ProcessInfo p, BillerInfo u) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 315
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__3(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TFourth,TFifth,TReturn](IDbConnection cnn, String sql, Func`6 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__91.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 311
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:40:14
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>b__91_0(Document d, BillingInfo dt, DocTypeInfo dct, ProcessInfo p, BillerInfo u) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 315
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__3(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TFourth,TFifth,TReturn](IDbConnection cnn, String sql, Func`6 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__91.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 311
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:40:15
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>b__91_0(Document d, BillingInfo dt, DocTypeInfo dct, ProcessInfo p, BillerInfo u) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 315
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__3(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TFourth,TFifth,TReturn](IDbConnection cnn, String sql, Func`6 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__91.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 311
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:40:16
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>b__91_0(Document d, BillingInfo dt, DocTypeInfo dct, ProcessInfo p, BillerInfo u) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 315
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__3(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TFourth,TFifth,TReturn](IDbConnection cnn, String sql, Func`6 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__91.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 311
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:40:17
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>b__91_0(Document d, BillingInfo dt, DocTypeInfo dct, ProcessInfo p, BillerInfo u) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 315
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__3(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TFourth,TFifth,TReturn](IDbConnection cnn, String sql, Func`6 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__91.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 311
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:40:18
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>b__91_0(Document d, BillingInfo dt, DocTypeInfo dct, ProcessInfo p, BillerInfo u) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 315
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__3(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TFourth,TFifth,TReturn](IDbConnection cnn, String sql, Func`6 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__91.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 311
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:40:19
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>b__91_0(Document d, BillingInfo dt, DocTypeInfo dct, ProcessInfo p, BillerInfo u) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 315
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__3(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TFourth,TFifth,TReturn](IDbConnection cnn, String sql, Func`6 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__91.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 311
+Error Occurred In : RequestTimer_Tick
+
+
+Time             : 14:40:20
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>b__91_0(Document d, BillingInfo dt, DocTypeInfo dct, ProcessInfo p, BillerInfo u) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 315
+   at Dapper.SqlMapper.<>c__DisplayClass156_0`8.<GenerateMapper>b__3(IDataReader r)
+   at Dapper.SqlMapper.<MultiMapImpl>d__153`8.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.MultiMap[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query[TFirst,TSecond,TThird,TFourth,TFifth,TReturn](IDbConnection cnn, String sql, Func`6 map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.ViewModel.ProcessViewModel.<RequestTimer_Tick>d__91.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 311
+Error Occurred In : RequestTimer_Tick
+
+

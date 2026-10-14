@@ -1,0 +1,80 @@
+Time             : 19:54:33
+Error            : Table 'db_dylt_lookup_20260211.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 504
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 20:01:25
+Error            : Two-way binding requires Path or XPath.
+StackTrace       : at System.Windows.Data.BindingExpression.CreateBindingExpression(DependencyObject d, DependencyProperty dp, Binding binding, BindingExpressionBase parent)
+   at System.Windows.Data.Binding.CreateBindingExpressionOverride(DependencyObject target, DependencyProperty dp, BindingExpressionBase owner)
+   at System.Windows.Data.BindingGroup.PrepareProposedValuesForUpdate(DependencyObject mentor, Boolean isUpdating)
+   at System.Windows.Data.BindingGroup.UpdateAndValidate(ValidationStep validationStep)
+   at System.Windows.Data.BindingGroup.CommitEdit()
+   at System.Windows.Controls.DataGrid.OnExecutedCommitEdit(ExecutedRoutedEventArgs e)
+   at System.Windows.Controls.DataGrid.OnExecutedCommitEdit(Object sender, ExecutedRoutedEventArgs e)
+   at System.Windows.Input.CommandBinding.OnExecuted(Object sender, ExecutedRoutedEventArgs e)
+   at System.Windows.Input.CommandManager.ExecuteCommandBinding(Object sender, ExecutedRoutedEventArgs e, CommandBinding commandBinding)
+   at System.Windows.Input.CommandManager.FindCommandBinding(Object sender, RoutedEventArgs e, ICommand command, Boolean execute)
+   at System.Windows.Input.CommandManager.OnExecuted(Object sender, ExecutedRoutedEventArgs e)
+   at System.Windows.UIElement.OnExecutedThunk(Object sender, ExecutedRoutedEventArgs e)
+   at System.Windows.Input.ExecutedRoutedEventArgs.InvokeEventHandler(Delegate genericHandler, Object target)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseEvent(RoutedEventArgs args, Boolean trusted)
+   at System.Windows.Input.RoutedCommand.ExecuteImpl(Object parameter, IInputElement target, Boolean userInitiated)
+   at System.Windows.Input.RoutedCommand.Execute(Object parameter, IInputElement target)
+   at System.Windows.Controls.DataGrid.EndEdit(RoutedCommand command, DataGridCell cellContainer, DataGridEditingUnit editingUnit, Boolean exitEditMode)
+   at System.Windows.Controls.DataGrid.OnCurrentCellChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+   at System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   at System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   at System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   at System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   at System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   at System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   at System.Windows.Controls.DataGrid.set_CurrentCell(DataGridCellInfo value)
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.MoveFocusCell(DataGridContext context, DataGrid dataGrid, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 617
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.HandleReferenceDataGrid(DataGrid dataGrid, KeyEventArgs e, DataGridContext context) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 309
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.HandleDataGridKeyDown(DataGrid dataGrid, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 144
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.AssociatedObject_PreviewKeyDown(Object sender, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 87
+Error Occurred In : AssociatedObject_PreviewKeyDown
+
+
+Time             : 21:59:05
+Error            : Table 'db_dylt_lookup_20260211.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 504
+Error Occurred In : InitializeLookupChargesCodes
+
+

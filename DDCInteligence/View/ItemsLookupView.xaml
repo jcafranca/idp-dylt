@@ -1,0 +1,30 @@
+﻿<hc:Window x:Class="DDCInteligence.View.ItemsLookupView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DDCInteligence.View"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:uc="clr-namespace:DDCInteligence.View.UserControl"
+        mc:Ignorable="d"
+        Title="Charges Lookup View" Height="450" Width="800"
+        WindowStartupLocation="CenterOwner"
+        NonClientAreaBackground="#0066CC"
+        OtherButtonHoverBackground="{DynamicResource SecondaryBorderBrush}"
+        OtherButtonForeground="White"
+        OtherButtonHoverForeground="White"
+        NonClientAreaForeground="White"
+        CloseButtonForeground="White"
+        Topmost="False"
+        ShowInTaskbar="False"
+        x:Name="container" Background="{DynamicResource RegionBrush}">
+
+    <uc:LookupContent Title="Charges Codes"
+                      SelectedItem="{Binding SelectedItem, RelativeSource={RelativeSource AncestorType=Window}}"
+                      Subtitle="List of Charges Codes"
+                      SearchPlaceholder="Search code..."
+                      ReferenceText="Charges"
+                      ItemsSource="{Binding Source={StaticResource Locator}, Path=Items.ItemsLookup, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                      SearchText="{Binding Source={StaticResource Locator}, Path=Items.SearchText, Mode=TwoWay}" />
+
+</hc:Window>

@@ -1,0 +1,750 @@
+Time             : 17:39:43
+Error            : Table 'db_dylt.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 520
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 17:40:54
+Error            : Table 'db_dylt.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 520
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 17:40:57
+Error            : Error converting value "Full Value Insurance Coverage up to $1736.00 / P-LIFT GATE PICKUP REQUIRED, D-RESIDENTIAL DELIVERY, D-APPOINTMENT REQUIRED, B-DO NOT DOUBLE STACK, B-FRAGILE - HANDLE WITH CARE, D-LIFT GATE DELIVERY REQUIRED, B-PACKING LIST ATTACHED, B-DAYLIGHT PROTECT COVERAGE" to type 'System.Collections.Generic.List`1[System.String]'. Path 'specialInstructions', line 38, position 287.
+StackTrace       : at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DDCInteligence.ViewModel.ProcessViewModel.LoadJsonDocument[T](String filePath) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 837
+Error Occurred In : LoadJsonDocument
+
+
+Time             : 17:41:21
+Error            : Table 'db_dylt.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 520
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 17:41:44
+Error            : Error converting value "Full Value Insurance Coverage up to $1736.00 / P-LIFT GATE PICKUP REQUIRED, D-RESIDENTIAL DELIVERY, D-APPOINTMENT REQUIRED, B-DO NOT DOUBLE STACK, B-FRAGILE - HANDLE WITH CARE, D-LIFT GATE DELIVERY REQUIRED, B-PACKING LIST ATTACHED, B-DAYLIGHT PROTECT COVERAGE" to type 'System.Collections.Generic.List`1[System.String]'. Path 'specialInstructions', line 38, position 287.
+StackTrace       : at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DDCInteligence.ViewModel.ProcessViewModel.LoadJsonDocument[T](String filePath) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 837
+Error Occurred In : LoadJsonDocument
+
+
+Time             : 17:42:04
+Error            : Table 'db_dylt.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 520
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 17:47:47
+Error            : Table 'db_dylt.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 520
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 17:50:21
+Error            : Table 'db_dylt.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 520
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 17:53:04
+Error            : Table 'db_dylt.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 520
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 17:55:19
+Error            : Table 'db_dylt.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 520
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 17:56:21
+Error            : Table 'db_dylt.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 520
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 17:58:15
+Error            : Unknown column 'address2' in 'field list'
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.<InsertAsync>d__58`2.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUDAsync.cs:line 303
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<BeginTransactionAsync>d__185`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1510
+Error Occurred In : BeginTransactionAsync<AccountInfo>
+
+
+Time             : 17:58:15
+Error            : Unknown column 'keyword' in 'field list'
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.<InsertAsync>d__58`2.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUDAsync.cs:line 303
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<BeginTransactionAsync>d__185`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1510
+Error Occurred In : BeginTransactionAsync<InstructionInfo>
+
+
+Time             : 17:58:15
+Error            : Unknown column 'weight' in 'field list'
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.<InsertAsync>d__58`2.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUDAsync.cs:line 303
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<BeginTransactionAsync>d__185`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1510
+Error Occurred In : BeginTransactionAsync<ItemsInfo>
+
+
+Time             : 17:58:15
+Error            : Unknown column 'address2' in 'field list'
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.<InsertAsync>d__58`2.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUDAsync.cs:line 303
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<BeginTransactionAsync>d__185`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1529
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<InsertNewDocumentData>d__179.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1385
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<RunSaveAsync>d__176.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1339
+Error Occurred In : RunSaveAsync
+
+
+Time             : 17:59:47
+Error            : Unknown column 'address2' in 'field list'
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.<InsertAsync>d__58`2.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUDAsync.cs:line 303
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<BeginTransactionAsync>d__185`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1514
+Error Occurred In : BeginTransactionAsync<AccountInfo>
+
+
+Time             : 17:59:47
+Error            : Unknown column 'keyword' in 'field list'
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.<InsertAsync>d__58`2.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUDAsync.cs:line 303
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<BeginTransactionAsync>d__185`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1514
+Error Occurred In : BeginTransactionAsync<InstructionInfo>
+
+
+Time             : 17:59:47
+Error            : Unknown column 'weight' in 'field list'
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.<InsertAsync>d__58`2.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUDAsync.cs:line 303
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<BeginTransactionAsync>d__185`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1514
+Error Occurred In : BeginTransactionAsync<ItemsInfo>
+
+
+Time             : 18:01:12
+Error            : Table 'db_dylt.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 520
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 18:01:43
+Error            : Unknown column 'keyword' in 'field list'
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.<InsertAsync>d__58`2.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUDAsync.cs:line 303
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<BeginTransactionAsync>d__185`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1514
+Error Occurred In : BeginTransactionAsync<InstructionInfo>
+
+
+Time             : 18:01:43
+Error            : Unknown column 'weight' in 'field list'
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.<InsertAsync>d__58`2.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUDAsync.cs:line 303
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<BeginTransactionAsync>d__185`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1514
+Error Occurred In : BeginTransactionAsync<ItemsInfo>
+
+
+Time             : 18:04:28
+Error            : Table 'db_dylt.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 520
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 18:06:50
+Error            : Table 'db_dylt.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 520
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 18:09:13
+Error            : Unknown column 'weight' in 'field list'
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.<InsertAsync>d__58`2.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUDAsync.cs:line 303
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<BeginTransactionAsync>d__185`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1510
+Error Occurred In : BeginTransactionAsync<ItemsInfo>
+
+
+Time             : 18:11:44
+Error            : Table 'db_dylt.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 520
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 18:13:19
+Error            : Table 'db_dylt.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 520
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 18:13:37
+Error            : Out of range value for column 'plt' at row 1
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.<InsertAsync>d__58`2.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUDAsync.cs:line 303
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<BeginTransactionAsync>d__185`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1510
+Error Occurred In : BeginTransactionAsync<ItemsInfo>
+
+
+Time             : 18:13:48
+Error            : Out of range value for column 'plt' at row 1
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.<InsertAsync>d__58`2.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUDAsync.cs:line 303
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<BeginTransactionAsync>d__185`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1529
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<InsertNewDocumentData>d__179.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1385
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<RunSaveAsync>d__176.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1339
+Error Occurred In : RunSaveAsync
+
+
+Time             : 18:14:40
+Error            : Out of range value for column 'plt' at row 1
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.<InsertAsync>d__58`2.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUDAsync.cs:line 303
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<BeginTransactionAsync>d__185`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1514
+Error Occurred In : BeginTransactionAsync<ItemsInfo>
+
+
+Time             : 18:14:55
+Error            : Out of range value for column 'plt' at row 1
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Dapper.SqlMapper.<QueryAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.<InsertAsync>d__58`2.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUDAsync.cs:line 303
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<BeginTransactionAsync>d__185`1.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1529
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<UpdateExistingDocument>d__177.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1364
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at DDCInteligence.ViewModel.ProcessViewModel.<RunSaveAsync>d__176.MoveNext() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 1333
+Error Occurred In : RunSaveAsync
+
+

@@ -1,0 +1,19 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:o="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options">
+
+    <DrawingBrush
+        x:Key="BackgroundDrawingBrush"
+        AlignmentX="Right"
+        AlignmentY="Top"
+        Opacity=".1"
+        Stretch="Fill">
+        <DrawingBrush.Drawing>
+            <ImageDrawing
+                o:Freeze="True"
+                ImageSource="/Resources/Images/truck-gb12886d02_1920.jpg"
+                Rect="0 0 157 157" />
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
+</ResourceDictionary>

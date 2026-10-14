@@ -1,0 +1,36 @@
+<Application
+    x:Class="DDCInteligence.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:d1p1="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:DDCInteligence"
+    xmlns:vm="clr-namespace:DDCInteligence.ViewModel"
+    d1p1:Ignorable="d"
+    d:IsDataSource="True">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <ResourceDictionary.MergedDictionaries>
+                        <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/SkinDefault.xaml" />
+                        <ResourceDictionary Source="Resources/Themes/SkinDefault.xaml" />
+                    </ResourceDictionary.MergedDictionaries>
+                </ResourceDictionary>
+                <ResourceDictionary>
+                    <ResourceDictionary.MergedDictionaries>
+                        <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/Theme.xaml" />
+                        <ResourceDictionary Source="Resources/Themes/Theme.xaml" />
+                    </ResourceDictionary.MergedDictionaries>
+                </ResourceDictionary>
+
+                <ResourceDictionary Source="Resources/Themes/Basic/Basic.xaml" />
+                <ResourceDictionary Source="Resources/Themes/Styles/FlipClock.xaml" />
+                <ResourceDictionary Source="Resources/Themes/DataGridRowAndColumnStyle.xaml" />
+                <ResourceDictionary Source="Resources/Themes/Styles/Style.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <vm:ViewModelLocator x:Key="Locator" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

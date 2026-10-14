@@ -1,0 +1,2186 @@
+[
+  {
+    "id": 1,
+    "type": "REFERENCE",
+    "code": "APTPH",
+    "description": "",
+    "long_description": "APPOINTMENT PHONE NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 2,
+    "type": "REFERENCE",
+    "code": "ATTN",
+    "description": "",
+    "long_description": "ATTENTION OF (ONLY FOR CONSIGNEE)",
+    "related_code": null
+  },
+  {
+    "id": 3,
+    "type": "REFERENCE",
+    "code": "BLDG",
+    "description": "",
+    "long_description": "BUILDING NUMBER (ONLY FOR CONSIGNEE)",
+    "related_code": null
+  },
+  {
+    "id": 4,
+    "type": "REFERENCE",
+    "code": "CPDIM",
+    "description": "",
+    "long_description": "CARPET DIMENSIONS",
+    "related_code": null
+  },
+  {
+    "id": 5,
+    "type": "REFERENCE",
+    "code": "DEPT",
+    "description": "",
+    "long_description": "DEPARTMENT NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 6,
+    "type": "REFERENCE",
+    "code": "DIV",
+    "description": "",
+    "long_description": "DIVISION",
+    "related_code": null
+  },
+  {
+    "id": 7,
+    "type": "REFERENCE",
+    "code": "DK",
+    "description": "",
+    "long_description": "DOCK NUMBER (ONLY FOR CONSIGNEE)",
+    "related_code": null
+  },
+  {
+    "id": 8,
+    "type": "REFERENCE",
+    "code": "EMAIL",
+    "description": "",
+    "long_description": "EMAIL ADDRESS",
+    "related_code": null
+  },
+  {
+    "id": 9,
+    "type": "REFERENCE",
+    "code": "MK",
+    "description": "",
+    "long_description": "MARKS & NUMBERS",
+    "related_code": null
+  },
+  {
+    "id": 10,
+    "type": "REFERENCE",
+    "code": "PH",
+    "description": "",
+    "long_description": "CONSIGNEE PHONE",
+    "related_code": null
+  },
+  {
+    "id": 11,
+    "type": "REFERENCE",
+    "code": "PLT",
+    "description": "",
+    "long_description": "PLANT NUMBER    (ONLY FOR CONSIGNEE)",
+    "related_code": null
+  },
+  {
+    "id": 12,
+    "type": "REFERENCE",
+    "code": "RCV",
+    "description": "",
+    "long_description": "RECEIVING TIME / DAY",
+    "related_code": null
+  },
+  {
+    "id": 13,
+    "type": "REFERENCE",
+    "code": "ROLL",
+    "description": "",
+    "long_description": "DIVISION",
+    "related_code": null
+  },
+  {
+    "id": 14,
+    "type": "REFERENCE",
+    "code": "SPH",
+    "description": "",
+    "long_description": "SHIPPER PHONE NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 15,
+    "type": "REFERENCE",
+    "code": "STE",
+    "description": "",
+    "long_description": "SUITE NUMBER (ONLY FOR CONSIGNEE WHEN SELECTED)",
+    "related_code": null
+  },
+  {
+    "id": 16,
+    "type": "REFERENCE",
+    "code": "STORE",
+    "description": "",
+    "long_description": "STORE NUMBER (ONLY FOR CONSIGNEE)",
+    "related_code": null
+  },
+  {
+    "id": 17,
+    "type": "REFERENCE",
+    "code": "TAG",
+    "description": "",
+    "long_description": "TAG NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 18,
+    "type": "REFERENCE",
+    "code": "WHSE",
+    "description": "",
+    "long_description": "WAREHOUSE NUMBER (ONLY FOR CONSIGNEE)",
+    "related_code": null
+  },
+  {
+    "id": 19,
+    "type": "INSTRUCTION",
+    "code": "AM",
+    "description": "AM DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 20,
+    "type": "INSTRUCTION",
+    "code": "C1",
+    "description": "CALL 1 HOUR BEFORE DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 21,
+    "type": "INSTRUCTION",
+    "code": "C2",
+    "description": "CALL 2 HOURS BEFORE DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 22,
+    "type": "INSTRUCTION",
+    "code": "C3",
+    "description": "CALL 3 HOURS BEFORE DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 23,
+    "type": "INSTRUCTION",
+    "code": "C4",
+    "description": "CALL 4 HOURS BEFORE DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 24,
+    "type": "INSTRUCTION",
+    "code": "C24",
+    "description": "CALL 24 HOURS BEFORE DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 25,
+    "type": "INSTRUCTION",
+    "code": "C48",
+    "description": "CALL 48 HOURS BEFORE DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 26,
+    "type": "INSTRUCTION",
+    "code": "C72",
+    "description": "CALL 72 HOURS BEFORE DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 27,
+    "type": "INSTRUCTION",
+    "code": "DNB",
+    "description": "DO NOT BREAKDOWN/REMOVE FROM PALLET",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 28,
+    "type": "INSTRUCTION",
+    "code": "PJR",
+    "description": "PALLET JACK REQUIRED",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 29,
+    "type": "INSTRUCTION",
+    "code": "FG",
+    "description": "FRAGILE DONT DROP / HANDLE WITH CARE / DO NOT DROP OR CRUSH",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 30,
+    "type": "INSTRUCTION",
+    "code": "FR",
+    "description": "FREEZABLE / PROTECT FROM FREEZING",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 31,
+    "type": "INSTRUCTION",
+    "code": "FS",
+    "description": "FOODSTUFFS",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 32,
+    "type": "INSTRUCTION",
+    "code": "MD",
+    "description": "MEDICINES",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 33,
+    "type": "INSTRUCTION",
+    "code": "TF",
+    "description": "TOP FREIGHT ONLY / TOP LOAD",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 34,
+    "type": "INSTRUCTION",
+    "code": "HS",
+    "description": "HOT RUSH / URGENT / ASAP",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 35,
+    "type": "INSTRUCTION",
+    "code": "LF",
+    "description": "LAY FLAT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 36,
+    "type": "INSTRUCTION",
+    "code": "PS",
+    "description": "PACKING SLIP FOR DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 37,
+    "type": "INSTRUCTION",
+    "code": "DP",
+    "description": "DOCK PICKUP",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 38,
+    "type": "INSTRUCTION",
+    "code": "EX",
+    "description": "EXPORT SHIPMENT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 39,
+    "type": "INSTRUCTION",
+    "code": "IM",
+    "description": "IMPORT SHIPMENT",
+    "long_description": null,
+    "related_code": "{\"action\":\"populate\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"IP\"}]}"
+  },
+  {
+    "id": 41,
+    "type": "INSTRUCTION",
+    "code": "SE",
+    "description": "STAND ON END",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 42,
+    "type": "INSTRUCTION",
+    "code": "SS",
+    "description": "SECURE SHIPMENT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 43,
+    "type": "INSTRUCTION",
+    "code": "TL",
+    "description": "TRUCKLOAD SHIPMENT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 44,
+    "type": "INSTRUCTION",
+    "code": "WS",
+    "description": "WEIGH SHIPMENT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 45,
+    "type": "INSTRUCTION",
+    "code": "GS",
+    "description": "GUARANTEED SERVICE CHARGES COLLECT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 46,
+    "type": "INSTRUCTION",
+    "code": "AP",
+    "description": "APPOINTMENT",
+    "long_description": null,
+    "related_code": "{\"action\":\"populate\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"AN\"}]}"
+  },
+  {
+    "id": 47,
+    "type": "INSTRUCTION",
+    "code": "DS",
+    "description": "DO NOT STACK",
+    "long_description": null,
+    "related_code": "{\"action\":\"populate\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"AN\"}]}"
+  },
+  {
+    "id": 48,
+    "type": "INSTRUCTION",
+    "code": "NA",
+    "description": "NO APPOINTMENT REQUIRED",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 49,
+    "type": "INSTRUCTION",
+    "code": "ID",
+    "description": "INSIDE DELIVERY CHARGE",
+    "long_description": null,
+    "related_code": "{\"action\":\"populate\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"ID\"}]}"
+  },
+  {
+    "id": 51,
+    "type": "INSTRUCTION",
+    "code": "LG",
+    "description": "LIFTGATE REQUIRED",
+    "long_description": null,
+    "related_code": "{\"action\":\"populate\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"LG\"}]}"
+  },
+  {
+    "id": 52,
+    "type": "INSTRUCTION",
+    "code": "LP",
+    "description": "LIFTGATE USED AT PICKUP",
+    "long_description": null,
+    "related_code": "{\"action\":\"populate\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"LGP\"}]}"
+  },
+  {
+    "id": 53,
+    "type": "INSTRUCTION",
+    "code": "PR",
+    "description": "PRIVATE RESIDENCE DELIVERY",
+    "long_description": null,
+    "related_code": "{\"action\":\"populate\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"PRA\"}]}"
+  },
+  {
+    "id": 54,
+    "type": "INSTRUCTION",
+    "code": "LA",
+    "description": "LIMITED ACCESS DELIVERY",
+    "long_description": null,
+    "related_code": "{\"action\":\"populate\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"LA\"}]}"
+  },
+  {
+    "id": 55,
+    "type": "INSTRUCTION",
+    "code": "HM",
+    "description": "HAZARDOUS SHIPMENT",
+    "long_description": null,
+    "related_code": "{\"action\":\"populate\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"HM\"}]}"
+  },
+  {
+    "id": 56,
+    "type": "INSTRUCTION",
+    "code": "HX",
+    "description": "HAZARDOUS EXCEPTION",
+    "long_description": null,
+    "related_code": "{\"action\":\"populate\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"HM\"}]}"
+  },
+  {
+    "id": 57,
+    "type": "INSTRUCTION",
+    "code": "DG",
+    "description": "DAY GUARANTEE SHIPMENT",
+    "long_description": null,
+    "related_code": "{\"action\":\"choose\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"GS PPD\"},{\"type\":\"CHARGE\",\"code\":\"GS COL\"}]}"
+  },
+  {
+    "id": 58,
+    "type": "INSTRUCTION",
+    "code": "DG PPD",
+    "description": "GUARANTEED SERVICE CHARGES PREPAID",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 59,
+    "type": "INSTRUCTION",
+    "code": "DG COL",
+    "description": "GUARANTEED SERVICE CHARGES COLLECT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 60,
+    "type": "INSTRUCTION",
+    "code": "NG",
+    "description": "NOON GUARANTEE",
+    "long_description": null,
+    "related_code": "{\"action\":\"populate\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"NG\"}]}"
+  },
+  {
+    "id": 61,
+    "type": "INSTRUCTION",
+    "code": "TG",
+    "description": "TIME GUARANTEE SHIPMENT",
+    "long_description": null,
+    "related_code": "{\"action\":\"choose\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"GS PPD\"},{\"type\":\"CHARGE\",\"code\":\"GS COL\"}]}"
+  },
+  {
+    "id": 62,
+    "type": "INSTRUCTION",
+    "code": "HG",
+    "description": "HOT SHOT GUARANTEE",
+    "long_description": null,
+    "related_code": "{\"action\":\"choose\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"GS PPD\"},{\"type\":\"CHARGE\",\"code\":\"GS COL\"}]}"
+  },
+  {
+    "id": 63,
+    "type": "INSTRUCTION",
+    "code": "CD",
+    "description": "C.O.D. SHIPMENTS",
+    "long_description": null,
+    "related_code": "{\"action\":\"collect\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"FE PPD\"}]}"
+  },
+  {
+    "id": 64,
+    "type": "INSTRUCTION",
+    "code": "CD PPD",
+    "description": "COD FEE PREPAID",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 65,
+    "type": "INSTRUCTION",
+    "code": "CD COL",
+    "description": "COD FEE COLLECT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 66,
+    "type": "INSTRUCTION",
+    "code": "CC",
+    "description": "COMPANY CHECK OKAY",
+    "long_description": null,
+    "related_code": "{\"action\":\"collect\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"FE COL\"}]}"
+  },
+  {
+    "id": 67,
+    "type": "INSTRUCTION",
+    "code": "SC",
+    "description": "CASHIERS CHECK ONLY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 68,
+    "type": "INSTRUCTION",
+    "code": "IB",
+    "description": "INBOND",
+    "long_description": null,
+    "related_code": "{\"action\":\"populate\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"IB\"}]}"
+  },
+  {
+    "id": 74,
+    "type": "REFERENCE",
+    "code": "BOOK",
+    "description": "",
+    "long_description": "BOOKING NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 75,
+    "type": "REFERENCE",
+    "code": "BUD",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 76,
+    "type": "REFERENCE",
+    "code": "CUST",
+    "description": "",
+    "long_description": "CUSTOMER/CUSTOMER ORDER #",
+    "related_code": null
+  },
+  {
+    "id": 77,
+    "type": "REFERENCE",
+    "code": "DATBD",
+    "description": "",
+    "long_description": "DELIVER BETWEEN DATES ( MMDDYY MMDDYY )",
+    "related_code": null
+  },
+  {
+    "id": 78,
+    "type": "INSTRUCTION",
+    "code": "DATBY",
+    "description": "DELIVER BY THIS DATE ( MMDDYY )",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 79,
+    "type": "REFERENCE",
+    "code": "DATON",
+    "description": "",
+    "long_description": "DELIVER ON",
+    "related_code": null
+  },
+  {
+    "id": 80,
+    "type": "REFERENCE",
+    "code": "DLVY",
+    "description": "",
+    "long_description": "DELIVERY NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 81,
+    "type": "REFERENCE",
+    "code": "INS",
+    "description": "",
+    "long_description": "INSURANCE",
+    "related_code": null
+  },
+  {
+    "id": 82,
+    "type": "REFERENCE",
+    "code": "INV",
+    "description": "",
+    "long_description": "INVOICE NUMBERS",
+    "related_code": null
+  },
+  {
+    "id": 83,
+    "type": "REFERENCE",
+    "code": "LN",
+    "description": "",
+    "long_description": "LOAD ID/NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 84,
+    "type": "REFERENCE",
+    "code": "OSD",
+    "description": "",
+    "long_description": "OSD TAG NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 85,
+    "type": "REFERENCE",
+    "code": "PO",
+    "description": "",
+    "long_description": "PURCHASE ORDER",
+    "related_code": null
+  },
+  {
+    "id": 86,
+    "type": "REFERENCE",
+    "code": "RA",
+    "description": "",
+    "long_description": "RETURN AUTHORIZATION NBR",
+    "related_code": null
+  },
+  {
+    "id": 87,
+    "type": "REFERENCE",
+    "code": "RATE",
+    "description": "",
+    "long_description": "QUOTE NUMBER (9 CHARACTERS EX. CWA154S83)",
+    "related_code": null
+  },
+  {
+    "id": 88,
+    "type": "REFERENCE",
+    "code": "WAY",
+    "description": "",
+    "long_description": "WAYBILL NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 89,
+    "type": "REFERENCE",
+    "code": "SA",
+    "description": "",
+    "long_description": "SALES ORDER NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 90,
+    "type": "REFERENCE",
+    "code": "SH",
+    "description": "",
+    "long_description": "SHIPPER NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 91,
+    "type": "REFERENCE",
+    "code": "SHIP",
+    "description": "",
+    "long_description": "SHIPMENT NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 92,
+    "type": "REFERENCE",
+    "code": "SID",
+    "description": "",
+    "long_description": "SHIPMENT ID NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 93,
+    "type": "REFERENCE",
+    "code": "SO",
+    "description": "",
+    "long_description": "SHIPPER ORDER NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 94,
+    "type": "REFERENCE",
+    "code": "REF",
+    "description": "",
+    "long_description": "REFERENCE NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 95,
+    "type": "REFERENCE",
+    "code": "ORN",
+    "description": "",
+    "long_description": "ORDER NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 96,
+    "type": "REFERENCE",
+    "code": "TXT",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 97,
+    "type": "REFERENCE",
+    "code": "OTH",
+    "description": "",
+    "long_description": "OTHERS",
+    "related_code": null
+  },
+  {
+    "id": 98,
+    "type": "REFERENCE",
+    "code": "BL",
+    "description": "",
+    "long_description": "BILL OF LADING NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 99,
+    "type": "REFERENCE",
+    "code": "HF",
+    "description": "",
+    "long_description": "HAZMAT POISON (6.1)",
+    "related_code": null
+  },
+  {
+    "id": 100,
+    "type": "REFERENCE",
+    "code": "MABD",
+    "description": "",
+    "long_description": "MUST ARRIVE BETWEEN DATES",
+    "related_code": null
+  },
+  {
+    "id": 101,
+    "type": "REFERENCE",
+    "code": "HBL",
+    "description": "",
+    "long_description": "HOUSE AIRWAY NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 102,
+    "type": "REFERENCE",
+    "code": "AWB",
+    "description": "",
+    "long_description": "AIRWAY BILL",
+    "related_code": null
+  },
+  {
+    "id": 103,
+    "type": "REFERENCE",
+    "code": "MAWB",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 104,
+    "type": "REFERENCE",
+    "code": "ENTR",
+    "description": "",
+    "long_description": "ENTRY NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 105,
+    "type": "REFERENCE",
+    "code": "IT",
+    "description": "",
+    "long_description": "IMMEDIATE TRANSPORTATION NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 106,
+    "type": "REFERENCE",
+    "code": "LOT",
+    "description": "",
+    "long_description": "LOT NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 107,
+    "type": "REFERENCE",
+    "code": "CONT",
+    "description": "",
+    "long_description": "CONTAINER NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 108,
+    "type": "CHARGES",
+    "code": "AN",
+    "description": "APPOINTMENT/NOTIFY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 109,
+    "type": "CHARGES",
+    "code": "ID",
+    "description": "INSIDE DELIVERY CHARGE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 110,
+    "type": "CHARGES",
+    "code": "IP",
+    "description": "INSIDE PICKUP CHARGE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 111,
+    "type": "CHARGES",
+    "code": "LG",
+    "description": "LIFTGATE REQUIRED",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 112,
+    "type": "CHARGES",
+    "code": "LGP",
+    "description": "LIFTGATE USED AT PICKUP",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 113,
+    "type": "CHARGES",
+    "code": "PRA",
+    "description": "PRIVATE RESIDENCE DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 114,
+    "type": "CHARGES",
+    "code": "LA",
+    "description": "LIMITED ACCESS DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 115,
+    "type": "CHARGES",
+    "code": "HM",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 116,
+    "type": "CHARGES",
+    "code": "GS",
+    "description": "DAY GUARANTEE SHIPMENT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 117,
+    "type": "CHARGES",
+    "code": "GS PPD",
+    "description": "GUARANTEED SERVICE CHARGES PREPAID",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 118,
+    "type": "CHARGES",
+    "code": "GS COL",
+    "description": "GUARANTEED SERVICE CHARGES COLLECT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 119,
+    "type": "CHARGES",
+    "code": "NG",
+    "description": "NOON GUARANTEE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 120,
+    "type": "CHARGES",
+    "code": "CD",
+    "description": "C.O.D. SHIPMENTS",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 121,
+    "type": "CHARGES",
+    "code": "FE PPD",
+    "description": "COD FEE PREPAID",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 122,
+    "type": "CHARGES",
+    "code": "FE COL",
+    "description": "COD FEE COLLECT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 123,
+    "type": "CHARGES",
+    "code": "IB",
+    "description": "INBOND",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 125,
+    "type": "CHARGES",
+    "code": "SD",
+    "description": "SORT & SEGREGATE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 126,
+    "type": "CHARGES",
+    "code": "SPF",
+    "description": "BLIND SHIPMENT CHARGE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 127,
+    "type": "CHARGES",
+    "code": "SQ",
+    "description": "SQUARE YARDS.",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 128,
+    "type": "CHARGES",
+    "code": "TTL",
+    "description": "TOTALS",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 139,
+    "type": "REFERENCE",
+    "code": "JOB",
+    "description": "",
+    "long_description": "JOB NUMBER",
+    "related_code": null
+  },
+  {
+    "id": 140,
+    "type": "REFERENCE",
+    "code": "POTYP",
+    "description": "",
+    "long_description": "PO TYPE",
+    "related_code": null
+  },
+  {
+    "id": 141,
+    "type": "REFERENCE",
+    "code": "SM",
+    "description": "",
+    "long_description": "SIDEMARK",
+    "related_code": null
+  },
+  {
+    "id": 142,
+    "type": "REFERENCE",
+    "code": "GBL",
+    "description": "",
+    "long_description": "GOVERNMENT BILL OF LADING#",
+    "related_code": null
+  },
+  {
+    "id": 143,
+    "type": "REFERENCE",
+    "code": "HAWB",
+    "description": "",
+    "long_description": "HOUSE AIRWAY BILL #",
+    "related_code": null
+  },
+  {
+    "id": 144,
+    "type": "REFERENCE",
+    "code": "MBL",
+    "description": "",
+    "long_description": "MASTER BILL OF LADING",
+    "related_code": null
+  },
+  {
+    "id": 145,
+    "type": "REFERENCE",
+    "code": "BROK",
+    "description": "",
+    "long_description": "BROKER NAME",
+    "related_code": null
+  },
+  {
+    "id": 146,
+    "type": "SHC",
+    "code": "01",
+    "description": "SOLID TRAILER THAT IS ‘SLC’",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 147,
+    "type": "SHC",
+    "code": "04",
+    "description": "SHIPMENT IS A HEADLOAD OR NOSELOAD",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 148,
+    "type": "SHC",
+    "code": "05",
+    "description": "SHIPMENT IS BROUGHT TO OUR DOCK",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 149,
+    "type": "SHC",
+    "code": "06",
+    "description": "SHIPMENT IS SHIPPER LOAD AND COUNT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 150,
+    "type": "SHC",
+    "code": "6A",
+    "description": "BOTH 04 AND 06 APPLY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 151,
+    "type": "SHC",
+    "code": "07",
+    "description": "SHIPMENT IS TO BE PICKED UP AT OUR DOCK - DOCK PICKUP",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 153,
+    "type": "CHARGES",
+    "code": "AS",
+    "description": "AS WEIGHT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 155,
+    "type": "CHARGES",
+    "code": "D",
+    "description": "DISCOUNT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 156,
+    "type": "CHARGES",
+    "code": "DC",
+    "description": "DELIVERY CHARGE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 157,
+    "type": "CHARGES",
+    "code": "DF",
+    "description": "DEFICIT WEIGHT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 160,
+    "type": "CHARGES",
+    "code": "FS",
+    "description": "FUEL SURCHARGE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 161,
+    "type": "CHARGES",
+    "code": "HAZ",
+    "description": "HAZARDOUS SHIPMENT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 164,
+    "type": "CHARGES",
+    "code": "MFC",
+    "description": "MINIMUM FREIGHT CHARGE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 166,
+    "type": "CHARGES",
+    "code": "OT",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 168,
+    "type": "CHARGES",
+    "code": "PU",
+    "description": "CALIFORNIA COMPLAINCE SURCHARGE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 169,
+    "type": "CHARGES",
+    "code": "RM",
+    "description": "REMARKING CHARGE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 171,
+    "type": "CHARGES",
+    "code": "SS",
+    "description": "SINGLE SHIPMENT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 172,
+    "type": "CHARGES",
+    "code": "ST",
+    "description": "STORAGE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 173,
+    "type": "STATE",
+    "code": "AL",
+    "description": "ALABAMA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 174,
+    "type": "STATE",
+    "code": "AK",
+    "description": "ALASKA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 175,
+    "type": "STATE",
+    "code": "AZ",
+    "description": "ARIZONA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 176,
+    "type": "STATE",
+    "code": "AR",
+    "description": "ARKANSAS",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 177,
+    "type": "STATE",
+    "code": "CA",
+    "description": "CALIFORNIA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 178,
+    "type": "STATE",
+    "code": "CZ",
+    "description": "CANAL ZONE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 179,
+    "type": "STATE",
+    "code": "CO",
+    "description": "COLORADO",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 180,
+    "type": "STATE",
+    "code": "CT",
+    "description": "CONNECTICUT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 181,
+    "type": "STATE",
+    "code": "DE",
+    "description": "DELAWARE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 182,
+    "type": "STATE",
+    "code": "DC",
+    "description": "DISTRICT OF COLUMBIA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 183,
+    "type": "STATE",
+    "code": "FL",
+    "description": "FLORIDA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 184,
+    "type": "STATE",
+    "code": "GA",
+    "description": "GEORGIA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 185,
+    "type": "STATE",
+    "code": "GU",
+    "description": "GUAM",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 186,
+    "type": "STATE",
+    "code": "HI",
+    "description": "HAWAII",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 187,
+    "type": "STATE",
+    "code": "ID",
+    "description": "IDAHO",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 188,
+    "type": "STATE",
+    "code": "IL",
+    "description": "ILLINOIS",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 189,
+    "type": "STATE",
+    "code": "IN",
+    "description": "INDIANA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 190,
+    "type": "STATE",
+    "code": "IA",
+    "description": "IOWA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 191,
+    "type": "STATE",
+    "code": "KS",
+    "description": "KANSAS",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 192,
+    "type": "STATE",
+    "code": "KY",
+    "description": "KENTUCKY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 193,
+    "type": "STATE",
+    "code": "LA",
+    "description": "LOUISIANA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 194,
+    "type": "STATE",
+    "code": "ME",
+    "description": "MAINE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 195,
+    "type": "STATE",
+    "code": "MD",
+    "description": "MARYLAND",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 196,
+    "type": "STATE",
+    "code": "MA",
+    "description": "MASSACHUSETTS",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 197,
+    "type": "STATE",
+    "code": "MI",
+    "description": "MICHIGAN",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 198,
+    "type": "STATE",
+    "code": "MN",
+    "description": "MINNESOTA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 199,
+    "type": "STATE",
+    "code": "MS",
+    "description": "MISSISSIPPI",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 200,
+    "type": "STATE",
+    "code": "MO",
+    "description": "MISSOURI",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 201,
+    "type": "STATE",
+    "code": "MT",
+    "description": "MONTANA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 202,
+    "type": "STATE",
+    "code": "NE",
+    "description": "NEBRASKA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 203,
+    "type": "STATE",
+    "code": "NV",
+    "description": "NEVADA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 204,
+    "type": "STATE",
+    "code": "NH",
+    "description": "NEW HAMPSHIRE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 205,
+    "type": "STATE",
+    "code": "NJ",
+    "description": "NEW JERSEY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 206,
+    "type": "STATE",
+    "code": "NM",
+    "description": "NEW MEXICO",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 207,
+    "type": "STATE",
+    "code": "NY",
+    "description": "NEW YORK",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 208,
+    "type": "STATE",
+    "code": "NC",
+    "description": "NORTH CAROLINA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 209,
+    "type": "STATE",
+    "code": "ND",
+    "description": "NORTH DAKOTA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 210,
+    "type": "STATE",
+    "code": "OH",
+    "description": "OHIO",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 211,
+    "type": "STATE",
+    "code": "OK",
+    "description": "OKLAHOMA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 212,
+    "type": "STATE",
+    "code": "OR",
+    "description": "OREGON",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 213,
+    "type": "STATE",
+    "code": "PA",
+    "description": "PENNSYLVANIA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 214,
+    "type": "STATE",
+    "code": "PR",
+    "description": "PUERTO RICO",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 215,
+    "type": "STATE",
+    "code": "RI",
+    "description": "RHODE ISLAND",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 216,
+    "type": "STATE",
+    "code": "SC",
+    "description": "SOUTH CAROLINA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 217,
+    "type": "STATE",
+    "code": "SD",
+    "description": "SOUTH DAKOTA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 218,
+    "type": "STATE",
+    "code": "TN",
+    "description": "TENNESSEE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 219,
+    "type": "STATE",
+    "code": "TX",
+    "description": "TEXAS",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 220,
+    "type": "STATE",
+    "code": "UT",
+    "description": "UTAH",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 221,
+    "type": "STATE",
+    "code": "VT",
+    "description": "VERMONT",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 222,
+    "type": "STATE",
+    "code": "VI",
+    "description": "VIRGIN ISLANDS",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 223,
+    "type": "STATE",
+    "code": "VA",
+    "description": "VIRGINIA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 224,
+    "type": "STATE",
+    "code": "WA",
+    "description": "WASHINGTON",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 225,
+    "type": "STATE",
+    "code": "WV",
+    "description": "WEST VIRGINIA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 226,
+    "type": "STATE",
+    "code": "WI",
+    "description": "WISCONSIN",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 227,
+    "type": "STATE",
+    "code": "WY",
+    "description": "WYOMING",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 231,
+    "type": "STATE",
+    "code": "CN",
+    "description": "CANADA",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 232,
+    "type": "STATE",
+    "code": "MX",
+    "description": "MEXICO",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 233,
+    "type": "REJECT",
+    "code": "IMG",
+    "description": "BLANK OR MISSING IMAGE",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 234,
+    "type": "REJECT",
+    "code": "OCR",
+    "description": "BLANK OCR",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 235,
+    "type": "REJECT",
+    "code": "OTH",
+    "description": "OTHERS",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 236,
+    "type": "INSTRUCTION",
+    "code": "NT",
+    "description": "NOTIFY",
+    "long_description": null,
+    "related_code": "{\"action\":\"populate\",\"entries\":[{\"type\":\"CHARGE\",\"code\":\"AN\"}]}"
+  },
+  {
+    "id": 237,
+    "type": "REFERENCE",
+    "code": "C1",
+    "description": "CALL 1 HOUR BEFORE DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 238,
+    "type": "REFERENCE",
+    "code": "C2",
+    "description": "CALL 2 HOURS BEFORE DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 239,
+    "type": "REFERENCE",
+    "code": "C3",
+    "description": "CALL 3 HOURS BEFORE DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 240,
+    "type": "REFERENCE",
+    "code": "C4",
+    "description": "CALL 4 HOURS BEFORE DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 241,
+    "type": "REFERENCE",
+    "code": "C24",
+    "description": "CALL 24 HOURS BEFORE DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 242,
+    "type": "REFERENCE",
+    "code": "C48",
+    "description": "CALL 48 HOURS BEFORE DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 243,
+    "type": "REFERENCE",
+    "code": "C72",
+    "description": "CALL 72 HOURS BEFORE DELIVERY",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 244,
+    "type": "INSTRUCTION",
+    "code": "OTH",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 245,
+    "type": "REFERENCE",
+    "code": "DATBY",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 246,
+    "type": "REFERENCE",
+    "code": "DNB",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 248,
+    "type": "INSTRUCTION",
+    "code": "APTPH",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 249,
+    "type": "INSTRUCTION",
+    "code": "ATTN",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 250,
+    "type": "INSTRUCTION",
+    "code": "AWB",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 251,
+    "type": "INSTRUCTION",
+    "code": "BL",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 252,
+    "type": "INSTRUCTION",
+    "code": "BLDG",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 253,
+    "type": "INSTRUCTION",
+    "code": "BOOK",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 254,
+    "type": "INSTRUCTION",
+    "code": "BROK",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 255,
+    "type": "INSTRUCTION",
+    "code": "BUD",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 256,
+    "type": "INSTRUCTION",
+    "code": "CONT",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 257,
+    "type": "INSTRUCTION",
+    "code": "CPDIM",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 258,
+    "type": "INSTRUCTION",
+    "code": "CUST",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 259,
+    "type": "INSTRUCTION",
+    "code": "DATBD",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 260,
+    "type": "INSTRUCTION",
+    "code": "DATON",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 261,
+    "type": "INSTRUCTION",
+    "code": "DEPT",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 262,
+    "type": "INSTRUCTION",
+    "code": "DIV",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 263,
+    "type": "INSTRUCTION",
+    "code": "DK",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 264,
+    "type": "INSTRUCTION",
+    "code": "DLVY",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 265,
+    "type": "INSTRUCTION",
+    "code": "EMAIL",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 266,
+    "type": "INSTRUCTION",
+    "code": "ENTR",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 267,
+    "type": "INSTRUCTION",
+    "code": "GBL",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 268,
+    "type": "INSTRUCTION",
+    "code": "HAWB",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 269,
+    "type": "INSTRUCTION",
+    "code": "HBL",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 270,
+    "type": "INSTRUCTION",
+    "code": "HF",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 271,
+    "type": "INSTRUCTION",
+    "code": "INS",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 272,
+    "type": "INSTRUCTION",
+    "code": "INV",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 273,
+    "type": "INSTRUCTION",
+    "code": "IT",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 274,
+    "type": "INSTRUCTION",
+    "code": "JOB",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 275,
+    "type": "INSTRUCTION",
+    "code": "LN",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 276,
+    "type": "INSTRUCTION",
+    "code": "LOT",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 277,
+    "type": "INSTRUCTION",
+    "code": "MABD",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 278,
+    "type": "INSTRUCTION",
+    "code": "MAWB",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 279,
+    "type": "INSTRUCTION",
+    "code": "MBL",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 280,
+    "type": "INSTRUCTION",
+    "code": "MK",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 281,
+    "type": "INSTRUCTION",
+    "code": "ORN",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 282,
+    "type": "INSTRUCTION",
+    "code": "OSD",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 283,
+    "type": "INSTRUCTION",
+    "code": "PH",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 284,
+    "type": "INSTRUCTION",
+    "code": "PLT",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 285,
+    "type": "INSTRUCTION",
+    "code": "PO",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 286,
+    "type": "INSTRUCTION",
+    "code": "POTYP",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 287,
+    "type": "INSTRUCTION",
+    "code": "RA",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 288,
+    "type": "INSTRUCTION",
+    "code": "RATE",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 289,
+    "type": "INSTRUCTION",
+    "code": "RCV",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 290,
+    "type": "INSTRUCTION",
+    "code": "REF",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 291,
+    "type": "INSTRUCTION",
+    "code": "ROLL",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 292,
+    "type": "INSTRUCTION",
+    "code": "SA",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 293,
+    "type": "INSTRUCTION",
+    "code": "SH",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 294,
+    "type": "INSTRUCTION",
+    "code": "SHIP",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 295,
+    "type": "INSTRUCTION",
+    "code": "SID",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 296,
+    "type": "INSTRUCTION",
+    "code": "SM",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 297,
+    "type": "INSTRUCTION",
+    "code": "SO",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 298,
+    "type": "INSTRUCTION",
+    "code": "SPH",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 299,
+    "type": "INSTRUCTION",
+    "code": "STE",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 300,
+    "type": "INSTRUCTION",
+    "code": "STORE",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 301,
+    "type": "INSTRUCTION",
+    "code": "TAG",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 302,
+    "type": "INSTRUCTION",
+    "code": "TXT",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 303,
+    "type": "INSTRUCTION",
+    "code": "WAY",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  },
+  {
+    "id": 304,
+    "type": "INSTRUCTION",
+    "code": "WHSE",
+    "description": "",
+    "long_description": null,
+    "related_code": null
+  }
+]

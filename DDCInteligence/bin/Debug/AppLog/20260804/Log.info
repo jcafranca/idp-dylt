@@ -1,0 +1,42 @@
+Time             : 21:01:59
+Error            : Table 'db_dylt_lookup_20260211.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 504
+Error Occurred In : InitializeLookupChargesCodes
+
+
+Time             : 21:05:06
+Error            : Table 'db_dylt_lookup_20260211.type_charge_codes_tbl' doesn't exist
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, Object whereConditions, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 217
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.GetList[T](IDbConnection connection) in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 264
+   at DDCInteligence.ViewModel.ProcessViewModel.InitializeLookupChargesCodes() in D:\LatestDotNETProjects\WPF\Research\DYLT\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 504
+Error Occurred In : InitializeLookupChargesCodes
+
+

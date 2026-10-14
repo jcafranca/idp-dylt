@@ -1,0 +1,44 @@
+Time             : 08:12:42
+Error            : Unknown column 'reference_number' in 'field list'
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Insert[TKey,TEntity](IDbConnection connection, TEntity entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 417
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Insert[TEntity](IDbConnection connection, TEntity entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 339
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass75_1.<<DDCInteligence-DataTypes-IProcess-Save>b__0>d.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 402
+Error Occurred In : Save
+
+
+Time             : 08:14:57
+Error            : Unknown column 'reference_number' in 'field list'
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Insert[TKey,TEntity](IDbConnection connection, TEntity entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 417
+   at DDCInteligence.Utilities.Helpers.SimpleCRUD.Insert[TEntity](IDbConnection connection, TEntity entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout) in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\Utilities\Helpers\SimpleCRUD.cs:line 339
+   at DDCInteligence.ViewModel.ProcessViewModel.<>c__DisplayClass75_1.<<DDCInteligence-DataTypes-IProcess-Save>b__0>d.MoveNext() in E:\LatestDotNETProjects\WPF\Research\DDCInteligence\DDCInteligence\ViewModel\ProcessViewModel.cs:line 402
+Error Occurred In : Save
+
+

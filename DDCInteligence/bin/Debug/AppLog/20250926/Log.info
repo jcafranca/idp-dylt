@@ -1,0 +1,26 @@
+Time             : 14:23:40
+Error            : One or more errors occurred.
+StackTrace       : at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.<>c__DisplayClass21_0.<HandleItemsDataGrid>b__0() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 223
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.ShowOrFocusWindow[T](Func`1 createWindow) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 904
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.HandleItemsDataGrid(DataGrid dataGrid, KeyEventArgs e, DataGridContext context) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 220
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.HandleDataGridKeyDown(DataGrid dataGrid, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 143
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.AssociatedObject_PreviewKeyDown(Object sender, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 87
+Error Occurred In : AssociatedObject_PreviewKeyDown
+
+
+Time             : 16:27:13
+Error            : One or more errors occurred.
+StackTrace       : at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.<>c__DisplayClass21_0.<HandleItemsDataGrid>b__0() in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 223
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.ShowOrFocusWindow[T](Func`1 createWindow) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 904
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.HandleItemsDataGrid(DataGrid dataGrid, KeyEventArgs e, DataGridContext context) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 220
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.HandleDataGridKeyDown(DataGrid dataGrid, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 143
+   at DDCInteligence.Utilities.Behaviors.PreviewKeydownBehevior.AssociatedObject_PreviewKeyDown(Object sender, KeyEventArgs e) in D:\LatestDotNETProjects\WPF\Research\SEFL\DDCInteligence\DDCInteligence\Utilities\Behaviors\PreviewKeydownBehevior.cs:line 87
+Error Occurred In : AssociatedObject_PreviewKeyDown
+
+

@@ -1,0 +1,19 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converter="clr-namespace:DDCInteligence.Converters">
+
+
+    <converter:DateTime2StringConverter x:Key="DateTime2StringConverter" />
+    <converter:Boolean2VisibilityConverter x:Key="Boolean2VisibilityConverter" />
+    <converter:ReverseBooleanConverter x:Key="ReverseBooleanConverter" />
+    <converter:State2VisibilityConverter x:Key="State2VisibilityConverter" />
+    <converter:State2BooleanConverter x:Key="State2BooleanConverter" />
+    <converter:Integer2VisibilityConverter x:Key="Integer2VisibilityConverter" />
+    <converter:State2ReverseVisibilityConverter x:Key="State2ReverseVisibilityConverter" />
+    <converter:CurrentRole2BooleanConverter x:Key="CurrentRole2BooleanConverter" />
+    <converter:Role2VisibilityConverter x:Key="Role2VisibilityConverter" />
+    <converter:PromptVisibilityConverter x:Key="PromptVisibilityConverter" />
+    <converter:TermsToRadioButtonConverter x:Key="TermsToRadioButtonConverter" />
+    <converter:LoadingAndItemsCountToVisibilityConverter x:Key="LoadingAndItemsCountToVisibilityConverter" />
+</ResourceDictionary>

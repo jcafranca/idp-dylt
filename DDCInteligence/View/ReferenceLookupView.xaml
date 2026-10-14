@@ -1,0 +1,22 @@
+﻿<Window x:Class="DDCInteligence.View.ReferenceLookupView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DDCInteligence.View"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:uc="clr-namespace:DDCInteligence.View.UserControl"
+        mc:Ignorable="d"
+        Title="Reference Lookup Table" MinHeight="500" Height="500" MinWidth="600" Width="600"      
+        WindowStartupLocation="CenterScreen"
+        Topmost="False"
+        ShowInTaskbar="False"
+        x:Name="container" Background="{DynamicResource RegionBrush}">
+
+    <uc:LookupContent Title="Special Instructions"
+                      SelectedItem="{Binding SelectedItem, RelativeSource={RelativeSource AncestorType=Window}}"
+                      Subtitle="List of special Instructions"
+                      SearchPlaceholder="Search code..."
+                      ItemsSource="{Binding Source={StaticResource Locator}, Path=Reference.ReferenceLookup, UpdateSourceTrigger=PropertyChanged}"
+                      SearchText="{Binding Source={StaticResource Locator}, Path=Reference.SearchText, Mode=TwoWay}" />
+</Window>
